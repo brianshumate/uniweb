@@ -1,9 +1,9 @@
 """
-Validator project
+Uniweb validator project
 
 tests.py
 
-Created by b on 2009-06-17.
+Created by Brian Shumate on 2009-06-17.
 Copyright (c) 2009 Brian Shumate. All rights reserved.
 """
 

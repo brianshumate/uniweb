@@ -1,4 +1,6 @@
 """
+Uniweb validator project
+
 wave.py : Checks URL against WAVE validator in various ways
 
 Created by Brian Shumate on 2009-06-18.

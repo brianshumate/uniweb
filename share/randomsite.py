@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
+Uniweb validator project
+
 randomsite.py
 
-Loads a random university website from a list of 2000+
-
-Created by Brian Shumate on 2009-06-18.
+Created by Brian Shumate on 2009-06-17.
 Copyright (c) 2009 Brian Shumate. All rights reserved.
 """
 import os, sys

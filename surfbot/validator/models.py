@@ -1,9 +1,9 @@
 """
-Validator project
+Uniweb validator project
 
 models.py
 
-Created by b on 2009-06-17.
+Created by Brian Shumate on 2009-06-17.
 Copyright (c) 2009 Brian Shumate. All rights reserved.
 """
 from datetime import datetime
@@ -33,7 +33,6 @@ class Website (models.Model):
     lastcheck = models.DateField()
     nextcheck = models.DateField()
     checktotal = models.IntegerField(blank=True)
-    """This is the model for target website to be checked out"""
     def __unicode__(self):
         return self.org
 

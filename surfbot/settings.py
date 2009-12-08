@@ -1,4 +1,9 @@
-# Django settings for surfbot project.
+# Uniweb validator project
+#
+# settings.py
+#
+# Created by Brian Shumate on 2009-06-17.
+# Copyright (c) 2009 Brian Shumate. All rights reserved.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
