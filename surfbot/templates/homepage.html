@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<link rel="stylesheet" href="http://localhost:8888/site_media/css/golden-extend/reset.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="http://localhost:8888/site_media/css/golden-extend/golden.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="http://localhost:8888/site_media/css/golden-extend/typography.css" type="text/css" media="screen, projection">
+
+<link rel="stylesheet" href="http://localhost:8888/site_media/css/tables.css" type="text/css" media="screen, projection">
+
+<link rel="stylesheet" href="http://localhost:8888/site_media/css/main.css" type="text/css" media="screen, projection">
+
+<title>Website Quality Statistics</title>
+</head>
+
+<body>
+<div class="main">
+  <div class="clear">&nbsp;</div>
+
+<div class="g960"><h1>Website Quality Statistics</h1>
+</div>
+
+<div class="clear">&nbsp;</div>
+<div class="g480">
+<p><!-- <img src="images/350.jpg" width="300" /> -->
+An experimental project for tracking quality in websites through basic validation mechanisms, such as the W3C validators.
+</p>
+
+</div>
+<div class="g320">
+  <p>
+   Some additional things- project logos and such...  
+  </p>
+</div>
+<div class="clear">&nbsp;</div>
+
+<div class="g960">
+
+<table class="mytable">
+<thead>
+  <h3 class="neutral-header">Random University Websites</h3>
+</thead>
+  <tbody>
+    <tr>
+      <th>Organization</th>
+      <th>HTML</th>
+      <th>CSS</th>
+      <th>Accessibility</th>
+      <th>Links</th>
+    </tr>
+    {% for website in object_list %}
+    <tr>
+      <td class="light-blue"><span class="website-org">{{ website.org }}</span></td>
+      <td class="{{ website.htmlval }}"><span class="val">{{ website.htmlval }}</span></td>
+      <td class="{{ website.cssval }}"><span class="val">{{ website.cssval }}</span></td>
+      <td class="{{ website.accessval }}"><span class="val">{{ website.accessval }}</span></td>
+      <td class="{{ website.linksval }}"><span class="val">{{ website.linksval }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+  
+</div>
+
+<div class="clear">&nbsp;</div>
+
+<div class="g320">
+  <ul>
+   <li>Lorem ipsum dolor sit amet, consectetuer</li>
+   <li>Aliquam tincidunt mauris eu risus</li>
+   <li>Vestibulum auctor dapibus neque</li>
+</ul></div>
+<div class="g320">
+  <ul>
+     <li>Lorem ipsum dolor sit amet, consectetuer</li>
+     <li>Aliquam tincidunt mauris eu risus</li>
+     <li>Vestibulum auctor dapibus neque</li>
+  </ul>
+  </div>
+<div class="g320">
+  <ul>
+     <li>Lorem ipsum dolor sit amet, consectetuer</li>
+     <li>Aliquam tincidunt mauris eu risus</li>
+     <li>Vestibulum auctor dapibus neque</li>
+  </ul>
+</div>
+<div class="clear">&nbsp;</div>
+
+<div class="g960 tc"><p class="note">Copyright &copy; 2009, Brian Shumate</p> </div>
+<div class="clear">&nbsp;</div>
+
+ </div>
+</body>
+<!--
+  Pagination code for later:
+  
+  <div class="pagination">
+      <span class="step-links">
+          {% if websites.has_previous %}
+              <a href="?page={{ websites.previous_page_number }}">previous</a>
+          {% endif %}
+
+          <span class="current">
+              Page {{ websites.number }} of {{ websites.paginator.num_pages }}.
+          </span>
+
+          {% if websites.has_next %}
+              <a href="?page={{ websites.next_page_number }}">next</a>
+          {% endif %}
+      </span>
+  </div>
+  --> 
+</html>

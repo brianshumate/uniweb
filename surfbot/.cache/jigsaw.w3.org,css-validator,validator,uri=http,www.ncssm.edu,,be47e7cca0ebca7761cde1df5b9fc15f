@@ -1,0 +1,2489 @@
+status: 200
+content-location: http://jigsaw.w3.org/css-validator/validator?uri=http://www.ncssm.edu/
+content-language: en
+server: Jigsaw/2.3.0-beta1
+x-w3c-validator-status: Valid
+x-w3c-validator-errors: 0
+pragma: no-cache
+cache-control: no-cache
+date: Tue, 23 Jun 2009 21:22:57 GMT
+content-type: text/html;charset=utf-8
+
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+        <title>W3C CSS Validator results for http://www.ncssm.edu/ (CSS level 2.1)</title>
+        <link href="http://jigsaw.w3.org/css-validator/" rel="validator" />
+        <link type="text/css" rel='stylesheet' href='style/base.css' />
+        <link type="text/css" rel='stylesheet' href='style/results.css' />
+    </head>
+    <body>
+      <div id="banner">
+       <h1 id="title"><a href="http://www.w3.org/"><img alt="W3C" width="110" height="61" id="logo" src="./images/w3c.png" /></a>
+       <a href="./"><span>CSS Validation Service</span></a></h1>
+
+       <p id="tagline">
+         W3C CSS Validator results for http://www.ncssm.edu/ (CSS level 2.1)
+       </p>
+      </div>
+
+        <ul class="navbar" id="jumpbar">
+            <li><strong>Jump to:</strong></li>
+            
+            <li><a href="#css">Validated CSS</a></li>
+    
+        </ul>
+<div id="results_container">
+   <h2>W3C CSS Validator results for <a href="http://www.ncssm.edu/">http://www.ncssm.edu/</a> (CSS level 2.1)</h2>
+            <!-- NO ERRORS -->
+        <div id='congrats'>
+            <h3>Congratulations! No Error Found.</h3>
+            <p>
+                This document validates as <a href="http://www.w3.org/TR/CSS21/">CSS level 2.1</a> ! 
+            </p>
+            <p>
+                To show your readers that you've taken the care to create an interoperable Web page, you may display this icon on any page that validates. Here is the XHTML you could use to add this icon to your Web page:
+            </p>
+            <img class="inline-badge" style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />   
+            <pre class='example badgeSnippet'>
+&lt;p&gt;
+    &lt;a href="http://jigsaw.w3.org/css-validator/check/referer"&gt;
+        &lt;img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" /&gt;
+    &lt;/a&gt;
+&lt;/p&gt;
+            </pre>
+        <img class="inline-badge" style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+        <pre class='example badgeSnippet'>
+&lt;p&gt;
+&lt;a href="http://jigsaw.w3.org/css-validator/check/referer"&gt;
+    &lt;img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+        </pre>
+            <p>(close the img tag with &gt; instead of /&gt; if using HTML &lt;= 4.01)</p>
+            
+            <div class="intro" id="don_program"></div>  
+            <script type="text/javascript" src="http://www.w3.org/QA/Tools/don_prog.js"></script>
+            
+            
+            <p>
+                If you like, you can download a copy of this image to keep in your local web directory, and change the XHTML fragment above to reference your local image rather than the one on this server.
+            </p>
+                        <p>
+                If you would like to create a link to this page (i.e., this validation result) to make it easier to re-validate this page in the future or to allow others to validate your page, the URI is:
+            </p>
+<pre>http://jigsaw.w3.org/css-validator/validator?uri=http://www.ncssm.edu/
+or
+http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
+</pre>
+            <p>(Or, you can just add the current page to your bookmarks or hotlist.)</p>
+        
+        </div>
+        <p class="backtop"><a href="#banner">&uarr; Top</a></p>
+    
+
+        <div id="css">
+            <h3>Valid CSS information</h3>
+            <div class='vAtRule'>
+    
+            
+                    <div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                *
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>100%</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>cursor</span> :
+                                    <span class='PropertyValue'> pointer</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#0f2b5b</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a[href$=".pdf"]
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-right</span> :
+                                    <span class='PropertyValue'>20px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>transparent url(images/pdf.gif) no-repeat center right</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a[href^="mailto:"]
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-right</span> :
+                                    <span class='PropertyValue'>20px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>transparent url(images/email.gif) no-repeat center right</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a.external
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-right</span> :
+                                    <span class='PropertyValue'>15px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>transparent url(images/externallink.gif) no-repeat center right</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a:hover, li a:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>blue</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                h1
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial, Helvetica, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border-bottom</span> :
+                                    <span class='PropertyValue'>1px solid #939598</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.4em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#0f2b5b</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin</span> :
+                                    <span class='PropertyValue'>0 0 10px 10px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                h2
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Calibri, Arial, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.2em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#0f2b5b</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-transform</span> :
+                                    <span class='PropertyValue'>uppercase</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>letter-spacing</span> :
+                                    <span class='PropertyValue'>0.06em</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                h3
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.1em</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a img
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>vertical-align</span> :
+                                    <span class='PropertyValue'>middle</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                ol
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-position</span> :
+                                    <span class='PropertyValue'>outside</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>line-height</span> :
+                                    <span class='PropertyValue'>1.3em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-left</span> :
+                                    <span class='PropertyValue'>30px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                p
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>line-height</span> :
+                                    <span class='PropertyValue'>1.5em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-bottom</span> :
+                                    <span class='PropertyValue'>10px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                p + ul
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-bottom</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                ul
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-bottom</span> :
+                                    <span class='PropertyValue'>5px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                ul li
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-left</span> :
+                                    <span class='PropertyValue'>5px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                ul li.bullet
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-type</span> :
+                                    <span class='PropertyValue'>disc</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin</span> :
+                                    <span class='PropertyValue'>0 0 0 25px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-position</span> :
+                                    <span class='PropertyValue'>outside</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                ul ul
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-left</span> :
+                                    <span class='PropertyValue'>30px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .access
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>overflow</span> :
+                                    <span class='PropertyValue'>hidden</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>absolute</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>left</span> :
+                                    <span class='PropertyValue'>-9000px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .button
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>cursor</span> :
+                                    <span class='PropertyValue'> pointer</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .colTwo
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>float</span> :
+                                    <span class='PropertyValue'>left</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>300px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-left</span> :
+                                    <span class='PropertyValue'>300px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>absolute</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .colRight
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>min-height</span> :
+                                    <span class='PropertyValue'>549px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>float</span> :
+                                    <span class='PropertyValue'>left</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>242px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font</span> :
+                                    <span class='PropertyValue'>1.1em Arial, Helvetica, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>0 0 0 5px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .colRight p
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#0f2b5b</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>5px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#bfd8ff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border</span> :
+                                    <span class='PropertyValue'>1px dotted blue</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-bottom</span> :
+                                    <span class='PropertyValue'>5px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .colRight p.tan
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#fff5bf</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .colLeft
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>float</span> :
+                                    <span class='PropertyValue'>left</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>340px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-right</span> :
+                                    <span class='PropertyValue'>10px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-left</span> :
+                                    <span class='PropertyValue'>10px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border-right</span> :
+                                    <span class='PropertyValue'>1px solid #e2e2e2</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .heading
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#939598 url(images/audience2.gif) repeat-x left bottom</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>auto</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-left</span> :
+                                    <span class='PropertyValue'>10px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>19px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-transform</span> :
+                                    <span class='PropertyValue'>uppercase</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>3px 0 0 10px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .heading a
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .heading h2
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Calibri, Arial, Helvetica, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.4em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>700</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .policy
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-right</span> :
+                                    <span class='PropertyValue'>30px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .external:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>transparent url(images/externallink.gif) no-repeat center right</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                body
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>62.5%</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#0f2b5b</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #container
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>800px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin</span> :
+                                    <span class='PropertyValue'>0 auto</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border</span> :
+                                    <span class='PropertyValue'>1px solid #e2e2e2</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #content
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Verdana, Arial, Helvetica, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>614px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>min-height</span> :
+                                    <span class='PropertyValue'>549px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-left</span> :
+                                    <span class='PropertyValue'>176px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.1em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>20px 5px 20px 10px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-bottom</span> :
+                                    <span class='PropertyValue'>10px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #main
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>625px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>255px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-left</span> :
+                                    <span class='PropertyValue'>175px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #header
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.2em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border-bottom</span> :
+                                    <span class='PropertyValue'>1px solid #fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>auto</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>100px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>clear</span> :
+                                    <span class='PropertyValue'>both</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#0f2b5b</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-left</span> :
+                                    <span class='PropertyValue'>10px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .headerform
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Verdana, Arial, sans-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>255px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>100px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-align</span> :
+                                    <span class='PropertyValue'>center</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>absolute</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>top</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>right</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .headerform li a
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .headerform input.button
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin</span> :
+                                    <span class='PropertyValue'>5px 0 -4pt 2px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .headerform li
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>display</span> :
+                                    <span class='PropertyValue'>inline</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .logo
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#0f2b5b url(images/newheader3.gif) no-repeat scroll 0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>450px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>100px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>overflow</span> :
+                                    <span class='PropertyValue'>hidden</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-indent</span> :
+                                    <span class='PropertyValue'>-9000px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>float</span> :
+                                    <span class='PropertyValue'>left</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .inputbox
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>186px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .rss
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>bottom</span> :
+                                    <span class='PropertyValue'>1.5px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #quicklinks_form
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>10px 5px 0 20px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #quicklinks_form select
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>190px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .search_form
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>2px 5px 10px 20px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a.applynowbtn
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#0f2b5b url(images/audience.gif) repeat-x scroll left bottom</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>174px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>22px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>display</span> :
+                                    <span class='PropertyValue'>block</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-align</span> :
+                                    <span class='PropertyValue'>center</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>vertical-align</span> :
+                                    <span class='PropertyValue'>middle</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Calibri, Arial, Helvetica, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.6em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>700</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-transform</span> :
+                                    <span class='PropertyValue'>uppercase</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>7px 0</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a.applynowbtn:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#4973ab none repeat-x scroll left bottom</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>underline</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                ul#breadcrumbs
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font</span> :
+                                    <span class='PropertyValue'>1.2em Verdana</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-left</span> :
+                                    <span class='PropertyValue'>174px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #breadcrumbs li
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>transparent url(images/triangle.png) no-repeat scroll 0 50%</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>display</span> :
+                                    <span class='PropertyValue'>inline</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-transform</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>0 5px 0 15px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                ul#breadcrumbs li:first-child
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>transparent none repeat scroll 0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .giving
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.6em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#939598 url(images/audience2.gif) repeat-x scroll left bottom</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>22px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-align</span> :
+                                    <span class='PropertyValue'>center</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>7px 0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>174px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>display</span> :
+                                    <span class='PropertyValue'>block</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Calibri, Arial, Helvetica, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>vertical-align</span> :
+                                    <span class='PropertyValue'>middle</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>700</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-transform</span> :
+                                    <span class='PropertyValue'>uppercase</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .giving:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#c2cbc3 none repeat-x scroll left bottom</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>underline</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav a.menuitem
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#0f2b5b url(images/audience.gif) repeat-x scroll left bottom</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>700</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.1em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>display</span> :
+                                    <span class='PropertyValue'>block</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border-bottom</span> :
+                                    <span class='PropertyValue'>1px solid #fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-transform</span> :
+                                    <span class='PropertyValue'>uppercase</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>4px 0 4px 20px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav a.menuitem2
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#939598 url(images/audience2.gif) repeat-x scroll left bottom</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>700</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.1em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>display</span> :
+                                    <span class='PropertyValue'>block</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border-bottom</span> :
+                                    <span class='PropertyValue'>1px solid #fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-transform</span> :
+                                    <span class='PropertyValue'>uppercase</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>4px 0 4px 20px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav a.menuitem:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#4973ab</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav a.menuitem2:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#c2cbc3</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav div.submenu
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#c9c9c9</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav div.submenu ul li
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border-bottom</span> :
+                                    <span class='PropertyValue'>1px solid #fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-image</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav div.submenu ul li a
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>display</span> :
+                                    <span class='PropertyValue'>block</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Verdana, Arial, Helvetica, sans-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.1em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#000</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>2px 0 2px 10px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav div.submenu ul li a:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#c9c9c9 none repeat scroll 0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav div.submenu ul li a[href$=".pdf"]:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>transparent url(images/pdf.gif) no-repeat center right</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .main_nav a.menuitem .statusicon, .main_nav a.menuitem2 .statusicon
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>absolute</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>top</span> :
+                                    <span class='PropertyValue'>5px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>left</span> :
+                                    <span class='PropertyValue'>5px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #nav
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>174px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>auto</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#939598</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>absolute</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>top</span> :
+                                    <span class='PropertyValue'>101px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>left</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #resources
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>175px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.2em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>top</span> :
+                                    <span class='PropertyValue'>auto</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-top</span> :
+                                    <span class='PropertyValue'>15px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding-left</span> :
+                                    <span class='PropertyValue'>10px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #resources li
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-image</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-type</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #experience
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#000 none repeat scroll 0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>423px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>325px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>absolute</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>top</span> :
+                                    <span class='PropertyValue'>2px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>left</span> :
+                                    <span class='PropertyValue'>2px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>overflow</span> :
+                                    <span class='PropertyValue'>hidden</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin</span> :
+                                    <span class='PropertyValue'>100px 0 0 375px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #news
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial, Helvetica, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>200px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>325px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-transform</span> :
+                                    <span class='PropertyValue'>capitalize</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin-left</span> :
+                                    <span class='PropertyValue'>175px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #events
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial, san-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border</span> :
+                                    <span class='PropertyValue'>1px solid #e2e2e2</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>254px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>366px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-align</span> :
+                                    <span class='PropertyValue'>left</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#0f2b5b</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-transform</span> :
+                                    <span class='PropertyValue'>capitalize</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>float</span> :
+                                    <span class='PropertyValue'>left</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #events li, #news li
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-position</span> :
+                                    <span class='PropertyValue'>outside</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-image</span> :
+                                    <span class='PropertyValue'>url(images/triangle.gif)</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.2em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>margin</span> :
+                                    <span class='PropertyValue'>10px 0 0 20px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #events .tech
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>inherit</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>absolute</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>bottom</span> :
+                                    <span class='PropertyValue'>0</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border-top</span> :
+                                    <span class='PropertyValue'>1px solid #4973ab</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #spotlight
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border</span> :
+                                    <span class='PropertyValue'>1px solid #e2e2e2</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>255px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>height</span> :
+                                    <span class='PropertyValue'>255px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>float</span> :
+                                    <span class='PropertyValue'>right</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #footer
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>padding</span> :
+                                    <span class='PropertyValue'>2.5px 0 2.5px 2.5px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background</span> :
+                                    <span class='PropertyValue'>#0f2b5b</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>border</span> :
+                                    <span class='PropertyValue'>1px solid #e2e2e2</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>width</span> :
+                                    <span class='PropertyValue'>798px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial, Helvetica, sans-serif</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>1.2em</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-align</span> :
+                                    <span class='PropertyValue'>center</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>clear</span> :
+                                    <span class='PropertyValue'>both</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>position</span> :
+                                    <span class='PropertyValue'>relative</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #footer a
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#fff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial, sans-serif</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #footer li
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>display</span> :
+                                    <span class='PropertyValue'>inline</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-image</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-type</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                ul li, .main_nav div.submenu ul
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>list-style-type</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .headerform li a:hover, #footer a:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>underline</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #resources li a:hover, #news li a:hover, #events li a:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>blue</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #resources li a:hover, #news li a:hover, #events li a:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>blue</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                #resources li a:hover, #news li a:hover, #events li a:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>blue</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                    </div>
+            
+            </div>
+        </div>
+        <p class="backtop"><a href="#banner">&uarr; Top</a></p>
+</div><!-- results_container -->
+        <ul class="navbar" id="menu">
+            <li><strong><a href="./" title="Home page for the W3C CSS Validation Service">Home</a></strong> <span class="hideme">|</span></li>
+            <li><a href="about.html" title="About this service">About</a> <span class="hideme">|</span></li>
+            <li><a href="documentation.html" title="Documentation for the W3C CSS Validation Service">Documentation</a> <span class="hideme">|</span></li>
+            <li><a href="DOWNLOAD.html" title="Download and install the CSS validator">Download</a> <span class="hideme">|</span></li>
+            <li><a href="Email.html" title="How to provide feedback on this service">Feedback</a> <span class="hideme">|</span></li>
+            <li><a href="thanks.html" title="Credits and Acknowlegments">Credits</a></li>
+        </ul>
+
+        <ul id="lang_choice">
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=de"
+                lang="de"
+                xml:lang="de"
+                hreflang="de"
+                rel="alternate">Deutsch</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=en"
+                lang="en"
+                xml:lang="en"
+                hreflang="en"
+                rel="alternate">English</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=es"
+                lang="es"
+                xml:lang="es"
+                hreflang="es"
+                rel="alternate">Español</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=fr"
+                lang="fr"
+                xml:lang="fr"
+                hreflang="fr"
+                rel="alternate">Français</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=ko"
+                lang="ko"
+                xml:lang="ko"
+                hreflang="ko"
+                rel="alternate">한국어</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=it"
+                lang="it"
+                xml:lang="it"
+                hreflang="it"
+                rel="alternate">Italiano</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=nl"
+                lang="nl"
+                xml:lang="nl"
+                hreflang="nl"
+                rel="alternate">Nederlands</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=ja"
+                lang="ja"
+                xml:lang="ja"
+                hreflang="ja"
+                rel="alternate">日本語</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=pl-PL"
+                lang="pl-PL"
+                xml:lang="pl-PL"
+                hreflang="pl-PL"
+                rel="alternate">Polski</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=pt-BR"
+                lang="pt-BR"
+                xml:lang="pt-BR"
+                hreflang="pt-BR"
+                rel="alternate">Português</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=ru"
+                lang="ru"
+                xml:lang="ru"
+                hreflang="ru"
+                rel="alternate">Русский</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=sv"
+                lang="sv"
+                xml:lang="sv"
+                hreflang="sv"
+                rel="alternate">Svenska</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.ncssm.edu/&amp;lang=zh-cn"
+                lang="zh-cn"
+                xml:lang="zh-cn"
+                hreflang="zh-cn"
+                rel="alternate">简体中文</a>
+            </li>
+    
+        </ul>
+<div id="footer">
+        <p id="activity_logos">
+            <a href="http://www.w3.org/QA/" title="W3C's Quality Assurance Activity, bringing you free Web quality tools and more"><img src="http://www.w3.org/QA/2002/12/qa-small.png" alt="QA" /></a><a href="http://www.w3.org/Style/CSS/learning" title="Learn more about Cascading Style Sheets"><img src="images/woolly-icon" alt="CSS" /></a>
+        </p>
+        <p id="support_logo">
+        <a href="http://www.w3.org/QA/Tools/Donate">
+        <img src="http://www.w3.org/QA/Tools/I_heart_validator" alt="I heart Validator logo" title=" Validators Donation Program" />
+        </a>
+        </p>
+        <p class="copyright">
+            <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+            &copy; 1994-2009
+            <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a>&reg;
+            (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>,
+            <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>,
+            <a href="http://www.keio.ac.jp/">Keio</a>),
+            All Rights Reserved.
+            W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
+            <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a>,
+            <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a>
+            and <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-software">software licensing</a>
+            rules apply. Your interactions with this site are in accordance
+            with our <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Public">public</a> and
+            <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Members">Member</a> privacy statements.
+        </p>
+</div>
+    </body>
+</html>

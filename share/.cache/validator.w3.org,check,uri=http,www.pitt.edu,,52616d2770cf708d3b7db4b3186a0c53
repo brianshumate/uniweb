@@ -1,0 +1,2796 @@
+status: 200
+content-location: http://validator.w3.org/check?uri=http://www.pitt.edu/
+content-language: en
+server: Apache/2.2.9 (Debian) mod_python/3.3.1 Python/2.5.2
+x-w3c-validator-status: Invalid
+x-w3c-validator-errors: 133
+x-w3c-validator-warnings: 0
+date: Sat, 20 Jun 2009 19:28:19 GMT
+x-w3c-validator-recursion: 1
+content-type: text/html; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>
+            [Invalid]
+            Markup Validation of http://www.pitt.edu/ - W3C Markup Validator</title>
+        <link rel="icon" href="data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%10%00%00%00%10%08%02%00%00%00%90%91h6%00%00%00%19IDAT(%91c%BCd%AB%C2%40%0A%60%22I%F5%A8%86Q%0DCJ%03%00%DE%B5%01S%07%88%8FG%00%00%00%00IEND%AEB%60%82" type="image/png" />
+    <link rev="made" href="mailto:www-validator@w3.org" />
+    <link rev="start" href="./" title="Home Page" />
+    <style type="text/css" media="all">@import "./style/base.css";
+            @import "./style/results.css";</style>
+    <meta name="keywords" content="HTML, HyperText Markup Language, Validation,
+      W3C Markup Validation Service" />
+    <meta name="description" content="W3C's easy-to-use
+      HTML validation service, based on an SGML parser." />
+  </head>
+  <body>
+    
+    <div id="banner">
+     <h1 id="title">
+       <a href="http://www.w3.org/"><img alt="W3C" width="110" height="61" id="logo" src="./images/w3c.png" /></a>
+ 			<a href="./"><span>Markup Validation Service</span></a>
+       </h1>
+       <p id="tagline">Check the markup (HTML, XHTML, …) of Web documents</p>
+    </div>
+
+
+<div id="results_container">
+
+
+
+        <ul class="navbar" id="jumpbar">
+                <li><strong>Jump To:</strong></li>
+                
+                
+          <li><a title="Result of Validation" href="#result">Validation Output</a></li>
+          
+          
+
+  
+  
+
+  
+  
+  
+  
+        </ul>
+
+<!-- valid/invalid header and revalidation table -->
+
+    
+  <h2 id="results" class="invalid">Errors found while checking this document as XHTML 1.0 Transitional!</h2>
+    
+  
+
+
+
+
+  
+    <form id="form" method="get" action="check">
+  
+
+  <table class="header">
+    <tr>
+    <th>Result:</th>
+    
+    <td colspan="2" class="invalid">
+      133 Errors
+     <!-- this case where validation fails but no error is listed should never happen -->   
+    
+    </td>
+    </tr>
+    <tr>
+
+    
+      <th><label title="Address of Page to Validate" for="uri">Address</label>:</th>
+      <td colspan="2"><input type="text" id="uri" name="uri" value="http://www.pitt.edu/" size="50" /></td>
+      
+
+    </tr>
+
+
+
+  <tr>
+    <th><label title="Character Encoding" for="charset">Encoding</label>:</th>
+    <td>iso-8859-1</td><td><select name="charset" id="charset">
+  <option value="(detect automatically)">(detect automatically)</option>
+  <option value="utf-8" >utf-8 (Unicode, worldwide)</option>
+  <option value="utf-16" >utf-16 (Unicode, worldwide)</option>
+  <option value="iso-8859-1" >iso-8859-1 (Western Europe)</option>
+  <option value="iso-8859-2" >iso-8859-2 (Central Europe)</option>
+  <option value="iso-8859-3" >iso-8859-3 (Southern Europe)</option>
+  <option value="iso-8859-4" >iso-8859-4 (North European)</option>
+  <option value="iso-8859-5" >iso-8859-5 (Cyrillic)</option>
+  <option value="iso-8859-6-i" >iso-8859-6-i (Arabic)</option>
+  <option value="iso-8859-7" >iso-8859-7 (Greek)</option>
+  <option value="iso-8859-8" >iso-8859-8 (Hebrew, visual)</option>
+  <option value="iso-8859-8-i" >iso-8859-8-i (Hebrew, logical)</option>
+  <option value="iso-8859-9" >iso-8859-9 (Turkish)</option>
+  <option value="iso-8859-10" >iso-8859-10 (Latin 6)</option>
+  <option value="iso-8859-11" >iso-8859-11 (Latin/Thai)</option>
+  <option value="iso-8859-13" >iso-8859-13 (Latin 7, Baltic Rim)</option>
+  <option value="iso-8859-14" >iso-8859-14 (Latin 8, Celtic)</option>
+  <option value="iso-8859-15" >iso-8859-15 (Latin 9)</option>
+  <option value="iso-8859-16" >iso-8859-16 (Latin 10)</option>
+  <option value="us-ascii" >us-ascii (basic English)</option>
+  <option value="euc-jp" >euc-jp (Japanese, Unix)</option>
+  <option value="shift_jis" >shift_jis (Japanese, Win/Mac)</option>
+  <option value="iso-2022-jp" >iso-2022-jp (Japanese, email)</option>
+  <option value="euc-kr" >euc-kr (Korean)</option>
+  <option value="gb2312" >gb2312 (Chinese, simplified)</option>
+  <option value="gb18030" >gb18030 (Chinese, simplified)</option>
+  <option value="big5" >big5 (Chinese, traditional)</option>
+  <option value="big5-HKSCS" >Big5-HKSCS (Chinese, Hong Kong)</option>
+  <option value="tis-620" >tis-620 (Thai)</option>
+  <option value="koi8-r" >koi8-r (Russian)</option>
+  <option value="koi8-u" >koi8-u (Ukrainian)</option>
+  <option value="iso-ir-111" >iso-ir-111 (Cyrillic KOI-8)</option>  
+  <option value="macintosh" >macintosh (MacRoman)</option>
+  <option value="windows-1250" >windows-1250 (Central Europe)</option>
+  <option value="windows-1251" >windows-1251 (Cyrillic)</option>
+  <option value="windows-1252" >windows-1252 (Western Europe)</option>
+  <option value="windows-1253" >windows-1253 (Greek)</option>
+  <option value="windows-1254" >windows-1254 (Turkish)</option>
+  <option value="windows-1255" >windows-1255 (Hebrew)</option>
+  <option value="windows-1256" >windows-1256 (Arabic)</option>
+  <option value="windows-1257" >windows-1257 (Baltic Rim)</option>
+</select>
+</td>
+  </tr>
+
+
+  <tr>
+    <th><label for="doctype" title="Document Type">Doctype</label>:</th>
+    <td>XHTML 1.0 Transitional</td><td><select id="doctype" name="doctype">
+  <option value="Inline">(detect automatically)</option>
+  <option value="HTML5">HTML5 (experimental)</option>
+  <option value="XHTML 1.0 Strict">XHTML 1.0 Strict</option>
+  <option value="XHTML 1.0 Transitional" >XHTML 1.0 Transitional</option>
+  <option value="XHTML 1.0 Frameset" >XHTML 1.0 Frameset</option>
+  <option value="HTML 4.01 Strict" >HTML 4.01 Strict</option>
+  <option value="HTML 4.01 Transitional" >HTML 4.01 Transitional</option>
+  <option value="HTML 4.01 Frameset" >HTML 4.01 Frameset</option>
+  <option value="HTML 3.2" >HTML 3.2</option>
+  <option value="HTML 2.0" >HTML 2.0</option>
+  <option value="ISO/IEC 15445:2000 (&quot;ISO HTML&quot;)" >ISO/IEC 15445:2000 ("ISO HTML")</option>
+  <option value="XHTML 1.1" >XHTML 1.1</option>
+  <option value="XHTML + RDFa" >XHTML + RDFa</option>
+  <option value="XHTML Basic 1.0" >XHTML Basic 1.0</option>
+  <option value="XHTML Basic 1.1" >XHTML Basic 1.1</option>
+  <option value="XHTML Mobile Profile 1.2" >XHTML Mobile Profile 1.2</option>
+  <option value="XHTML-Print 1.0" >XHTML-Print 1.0</option>
+  <option value="XHTML 1.1 plus MathML 2.0" >XHTML 1.1 plus MathML 2.0</option> 
+  <option value="XHTML 1.1 plus MathML 2.0 plus SVG 1.1" >XHTML 1.1 plus MathML 2.0 plus SVG 1.1</option> 
+  <option value="MathML 2.0" >MathML 2.0</option>
+  <option value="SVG 1.0" >SVG 1.0</option>
+  <option value="SVG 1.1" >SVG 1.1</option>
+  <option value="SVG 1.1 Tiny" >SVG 1.1 Tiny</option>
+  <option value="SVG 1.1 Basic" >SVG 1.1 Basic</option>
+  <option value="SMIL 1.0" >SMIL 1.0</option>
+  <option value="SMIL 2.0" >SMIL 2.0</option>
+</select>
+</td>
+  </tr>
+
+
+  <tr>
+    <th>Root Element:</th>
+    <td colspan="2">html</td>
+  </tr>
+
+
+    <tr>
+      <th>Root Namespace:</th>
+      <td colspan="2"><a href="http://www.w3.org/1999/xhtml">http://www.w3.org/1999/xhtml</a></td>
+    </tr>
+
+
+  </table>
+
+<div id="don_program"></div>
+<script type="text/javascript" src="http://www.w3.org/QA/Tools/don_prog.js"></script>
+
+        <fieldset id="revalidate_opts">
+                 <legend>Options</legend>
+
+    <table class="header">
+      <tr>
+        <td><input type="checkbox" value="1" id="ss" name="ss" 
+
+		/><label title="Show Page Source" for="ss">Show&nbsp;Source</label></td>
+              <td><input type="checkbox" value="1" id="outline" name="outline" 
+
+		/><label title="Show an Outline of the document" for="outline">Show&nbsp;Outline</label></td>
+                <td><input type="radio" name="group" id="group_no" value="0" 
+                        
+                        	checked="checked"
+                        
+                        /><label for="group_no">List Messages Sequentially</label> 
+                        <input type="radio" name="group" id="group_yes" value="1"
+                                
+                                 /><label for="group_yes">Group Error Messages by Type</label></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" value="1" id="No200" name="No200"
+
+		/><label title="Validate also pages for which the HTTP status code indicates an error" for="No200">Validate&nbsp;error&nbsp;pages</label></td>
+              <td><input type="checkbox" value="1" id="verbose" name="verbose"
+
+		/><label title="Show Verbose Output" for="verbose">Verbose&nbsp;Output</label></td>
+    		<td><input id="st" name="st" type="checkbox" value="1"
+                        
+    		         /><label for="st">Clean up Markup with HTML Tidy</label></td>
+            </tr>
+
+    </table>
+        <p class="moreinfo">
+          <a href="docs/users.html#Options">Help</a> on the options is available.
+        </p>
+    <div id="revalidate_button" class="submit_button">
+ <input type="hidden" value="W3C_Validator/1.654" id="user-agent" name="user-agent" />
+      <input type="submit" value="Revalidate" title="Validate this document again" />
+    </div>
+  </fieldset>
+</form>
+
+
+
+                
+<!--                  <p><strong>Note</strong>:
+                  The Validator XML support has
+                  <a href="http://openjade.sourceforge.net/doc/xml.htm"
+                  title="Limitations in Validator XML support">some limitations</a>.
+                  </p>
+-->
+                
+
+
+                
+                  
+
+
+<p class="backtop"><a href="#jumpbar">&uarr; Top</a></p>
+
+
+<div id="result">
+
+<h3 class="invalid"
+>Validation Output:
+        <!-- this case where validation fails but no error is listed should never happen -->
+        
+        
+        133 Errors
+        </h3>
+
+
+    <ol id="error_loop">
+
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 7, Column 42</em>:
+        <span class="msg">end tag for &quot;meta&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…ent=&#34;text/html; charset=iso-8859-…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 6</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input"><strong title="Position where error was detected.">&#34;</strong>&#60;meta http-equiv=&#34;Content-Type&#34;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 8, Column 42</em>:
+        <span class="msg">end tag for &quot;meta&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">… http-equiv=&#34;refresh&#34; content=&#34;60…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input"><strong title="Position where error was detected.">&#62;</strong>&#60;meta http-equiv=&#34;refresh&#34; content=&#34;600&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 9, Column 126</em>:
+        <span class="msg">end tag for &quot;meta&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">… Students, Undergraduate, Graduat…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 9</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input"><strong title="Position where error was detected."> </strong>&#60;meta name=&#34;Keywords&#34; content=&#34;University, Pittsburgh, Pitt, College, Learning, </code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 11, Column 210</em>:
+        <span class="msg">end tag for &quot;meta&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">… sciences and professional fields…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 10</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input"><strong title="Position where error was detected.">&#34;</strong>&#60;meta name=&#34;description&#34;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 37, Column 170</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…rder=&#34;0&#34; height=&#34;49&#34; width=&#34;270&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 37, Column 62</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…anner&#34;&#62;&#60;a href=&#34;http://www.pitt.edu&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/banner-logo.gif&#34; al</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 40, Column 129</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;12&#34; width=&#34;58&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;a href=&#34;help.html&#34;&#62;&#60;img src=&#34;images-new</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 40, Column 31</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">      &#60;a href=&#34;siteindex.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/banner-siteIndex.gif&#34; alt=&#34;S</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 40, Column 236</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;12&#34; width=&#34;36&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;a href=&#34;findpeople.html&#34;&#62;&#60;img src=&#34;imag</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 40, Column 149</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…&#34; width=&#34;58&#34;&#62;&#60;/a&#62;&#60;a href=&#34;help.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/banner-help.gif&#34; al</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 40, Column 362</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;12&#34; width=&#34;69&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;a href=&#34;contact.html&#34;&#62;&#60;img src=&#34;images-</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 40, Column 262</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…h=&#34;36&#34;&#62;&#60;/a&#62;&#60;a href=&#34;findpeople.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/banner-findPeople.g</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 40, Column 482</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;12&#34; width=&#34;63&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 40, Column 385</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…idth=&#34;69&#34;&#62;&#60;/a&#62;&#60;a href=&#34;contact.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/banner-contact.gif&#34;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 43, Column 169</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…opment&#34; height=&#34;6&#34; width=&#34;755&#34;&#62;&#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 43, Column 20</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">  &#60;div id=&#34;tagline&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/headers/h-tag.gif&#34; alt=&#34;Leader in educa</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 45, Column 137</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;11&#34; width=&#34;59&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 45, Column 41</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…iv id=&#34;homeNav&#34;&#62;&#60;a href=&#34;about.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-about.gif&#34;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 46, Column 132</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;12&#34; width=&#34;64&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 46, Column 30</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;admissions.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-admissions.gif&#34; alt=</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 47, Column 129</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;64&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 47, Column 29</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;academics.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-academics.gif&#34; alt=&#34;A</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 48, Column 126</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;49&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 48, Column 28</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;research.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-research.gif&#34; alt=&#34;Res</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 49, Column 129</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;49&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 49, Column 29</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;libraries.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-libraries.gif&#34; alt=&#34;L</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 50, Column 132</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;61&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 50, Column 30</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;technology.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-technology.gif&#34; alt=</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 51, Column 148</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;49&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 51, Column 48</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…=&#34;http://www.pittsburghpanthers.com&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-athletics.</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 52, Column 137</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;69&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 52, Column 32</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;publications.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-publications.gif&#34; </code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 53, Column 128</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;55&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 53, Column 29</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;calendars.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-calendars.gif&#34; alt=&#34;C</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 54, Column 125</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;75&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 54, Column 26</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;giving.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-giving.gif&#34; alt=&#34;Pitt Gi</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 55, Column 132</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;71&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 55, Column 30</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;employment.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-employment.gif&#34; alt=</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 56, Column 145</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;89&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 56, Column 35</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;future_students.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-futureStudents.</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 57, Column 126</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;51&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 57, Column 28</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;students.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-students.gif&#34; alt=&#34;Stu</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 58, Column 120</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;41&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 58, Column 26</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;alumni.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-alumni.gif&#34; alt=&#34;Alumni </code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 59, Column 130</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;71&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 59, Column 28</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;a href=&#34;facstaff.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/nav/home-facstaff.gif&#34; alt=&#34;Fac</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 63, Column 126</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…r=&#34;0&#34; height=&#34;190&#34; width=&#34;401&#34;&#62;&#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 63, Column 28</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">    &#60;div id=&#34;flashcontent&#34;&#62;<strong title="Position where error was detected."> </strong>&#60;img src=&#34;photos/tlp_mar2008_studentWalking.jpg&#34; alt</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 75, Column 185</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;13&#34; width=&#34;51&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong> &#38;nbsp;&#38;nbsp;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 75, Column 95</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…;-lay=a&#38;amp;-format=r.htm&#38;amp;-Find&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/headers/h-news.gif&#34;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 89, Column 164</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…&#34; border=&#34;0&#34; height=&#34;36&#34; width=&#34;71&#34;&#62;<strong title="Position where error was detected.">&#60;</strong>br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 89, Column 68</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…ef=&#34;http://www.chancellor.pitt.edu/&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/icons-new/icon-chan</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 97, Column 178</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…solid ; width: 71px; height: 36px;&#34;&#62;<strong title="Position where error was detected.">&#60;</strong>br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 97, Column 67</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…ref=&#34;http://www.pitt.edu/green.html&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/icons-new/icon-gree</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 100, Column 177</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…id ; width: 71px; height: 36px;&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 100, Column 59</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">…on&#34;&#62;&#60;a href=&#34;http://www.pc.pitt.edu&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/icons/icon_pantherc</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 112, Column 167</em>:
+        <span class="msg">end tag for &quot;img&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…order=&#34;0&#34; height=&#34;36&#34; width=&#34;71&#34;&#62;&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;br /&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 112, Column 62</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">… href=&#34;http://www.veterans.pitt.edu&#34;<strong title="Position where error was detected.">&#62;</strong>&#60;img src=&#34;images-new/icons-new/icon-vete</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 118, Column 52</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…name=&#34;q&#34; class=&#34;search&#34; type=&#34;tex…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 118, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;q&#34; class=&#34;search&#34; type=&#34;text&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 119, Column 119</em>:
+        <span class="msg">Attribute &quot;border&quot; exists, but can not be used for this element.</span>
+
+<pre><code class="input">… alt=&#34;Search&#34; align=&#34;middle&#34; border=<strong title="Position where error was detected.">&#34;</strong>0&#34; height=&#34;16&#34; type=&#34;image&#34; width=&#34;48&#34;&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 119, Column 130</em>:
+        <span class="msg">Attribute &quot;height&quot; exists, but can not be used for this element.</span>
+
+<pre><code class="input">…h&#34; align=&#34;middle&#34; border=&#34;0&#34; height=<strong title="Position where error was detected.">&#34;</strong>16&#34; type=&#34;image&#34; width=&#34;48&#34;&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 119, Column 154</em>:
+        <span class="msg">Attribute &quot;width&quot; exists, but can not be used for this element.</span>
+
+<pre><code class="input">…=&#34;0&#34; height=&#34;16&#34; type=&#34;image&#34; width=<strong title="Position where error was detected.">&#34;</strong>48&#34;&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 119, Column 159</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…height=&#34;16&#34; type=&#34;image&#34; width=&#34;4…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 119, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;Search2&#34; value=&#34;Search&#34; src=&#34;images-new/headers/h-search.gi</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 120, Column 53</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…ame=&#34;entqr&#34; value=&#34;0&#34; type=&#34;hidde…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 120, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;entqr&#34; value=&#34;0&#34; type=&#34;hidden&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 121, Column 50</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…t name=&#34;ud&#34; value=&#34;1&#34; type=&#34;hidde…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 121, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;ud&#34; value=&#34;1&#34; type=&#34;hidden&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 122, Column 62</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…&#34; value=&#34;date:D:L:d1&#34; type=&#34;hidde…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 122, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;sort&#34; value=&#34;date:D:L:d1&#34; type=&#34;hidden&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 123, Column 63</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…t&#34; value=&#34;xml_no_dtd&#34; type=&#34;hidde…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 123, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;output&#34; value=&#34;xml_no_dtd&#34; type=&#34;hidden&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 124, Column 54</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…me=&#34;oe&#34; value=&#34;UTF-8&#34; type=&#34;hidde…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 124, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;oe&#34; value=&#34;UTF-8&#34; type=&#34;hidden&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 125, Column 54</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…me=&#34;ie&#34; value=&#34;UTF-8&#34; type=&#34;hidde…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 125, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;ie&#34; value=&#34;UTF-8&#34; type=&#34;hidden&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 126, Column 69</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…ue=&#34;default_frontend&#34; type=&#34;hidde…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 126, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;client&#34; value=&#34;default_frontend&#34; type=&#34;hidden&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 127, Column 78</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…ue=&#34;default_frontend&#34; type=&#34;hidde…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 127, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;proxystylesheet&#34; value=&#34;default_frontend&#34; type=&#34;hidden&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 128, Column 69</em>:
+        <span class="msg">end tag for &quot;input&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">…=&#34;default_collection&#34; type=&#34;hidde…<strong title="Position where error was detected."></strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 128, Column 8</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input">       <strong title="Position where error was detected."> </strong>&#60;input name=&#34;site&#34; value=&#34;default_collection&#34; type=&#34;hidden&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 133, Column 34</em>:
+        <span class="msg">required attribute &quot;action&quot; not specified</span>
+
+<pre><code class="input">    &#60;form name=&#34;form1&#34; id=&#34;form1&#34;<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 192, Column 59</em>:
+        <span class="msg">document type does not allow element &quot;a&quot; here</span>
+
+<pre><code class="input">            document.write('&#60;a href=&#34;' + one + tosite + '&#34;<strong title="Position where error was detected.">&#62;</strong>' + to2 + '@' + site + '&#60;/a&#62;');</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=64#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-64">
+    <p>
+      The element named above was found in a context where it is not allowed.
+      This could mean that you have incorrectly nested elements -- such as a
+      "style" element in the "body" section instead of inside "head" -- or
+      two elements that overlap (which is not allowed).
+    </p>
+    <p>
+      One common cause for this error is the use of XHTML syntax in HTML
+      documents. Due to HTML's rules of implicitly closed elements, this error
+      can create cascading effects. For instance, using XHTML's "self-closing"
+      tags for "meta" and "link" in the "head" section of a HTML document may
+      cause the parser to infer the end of the "head" section and the
+      beginning of the "body" section (where "link" and "meta" are not
+      allowed; hence the reported error).
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 216, Column 7</em>:
+        <span class="msg">end tag for &quot;div&quot; omitted, but OMITTAG NO was specified</span>
+
+<pre><code class="input">&#60;/body<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=70#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-70">
+      <p>
+      You may have neglected to close an element, or perhaps you meant to 
+      "self-close" an element, that is, ending it with "/&gt;" instead of "&gt;".
+    </p>
+</div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 36</em>:
+        <span class="msg">start tag was here</span>
+
+<pre><code class="input"><strong title="Position where error was detected.">&#62;</strong>&#60;div id=&#34;container&#34; class=&#34;home-container&#34;&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 33, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: meta line 10 and head</span>
+
+<pre><code class="input">&#60;/head<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 37, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 37 and a</span>
+
+<pre><code class="input">…tp://www.pitt.edu&#34;&#62;&#60;img src=&#34;images-new/banner-logo.gif&#34; alt=&#34;University of P…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 37, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: a line 37 and div</span>
+
+<pre><code class="input">…tp://www.pitt.edu&#34;&#62;&#60;img src=&#34;images-new/banner-logo.gif&#34; alt=&#34;University of P…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 40, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 40 and a</span>
+
+<pre><code class="input">…ages-new/banner-siteIndex.gif&#34; alt=&#34;Site Index&#34; border=&#34;0&#34; height=&#34;12&#34; width=…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 40, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 40 and a</span>
+
+<pre><code class="input">…ages-new/banner-siteIndex.gif&#34; alt=&#34;Site Index&#34; border=&#34;0&#34; height=&#34;12&#34; width=…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 40, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 40 and a</span>
+
+<pre><code class="input">…ages-new/banner-siteIndex.gif&#34; alt=&#34;Site Index&#34; border=&#34;0&#34; height=&#34;12&#34; width=…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 40, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 40 and a</span>
+
+<pre><code class="input">…ages-new/banner-siteIndex.gif&#34; alt=&#34;Site Index&#34; border=&#34;0&#34; height=&#34;12&#34; width=…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 41, Column 8</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: a line 40 and div</span>
+
+<pre><code class="input">  &#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 43, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 43 and div</span>
+
+<pre><code class="input">…aders/h-tag.gif&#34; alt=&#34;Leader in education, pioneer in research, partner in re…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 45, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 45 and a</span>
+
+<pre><code class="input">…mg src=&#34;images-new/nav/home-about.gif&#34; alt=&#34;About Pitt&#34; border=&#34;0&#34; height=&#34;11…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 46, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 46 and a</span>
+
+<pre><code class="input">…ges-new/nav/home-admissions.gif&#34; alt=&#34;Admissions &#34; border=&#34;0&#34; height=&#34;12&#34; wid…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 47, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 47 and a</span>
+
+<pre><code class="input">…es-new/nav/home-academics.gif&#34; alt=&#34;Academics &#34; border=&#34;0&#34; height=&#34;13&#34; width=…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 48, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 48 and a</span>
+
+<pre><code class="input">…s-new/nav/home-research.gif&#34; alt=&#34;Research &#34; border=&#34;0&#34; height=&#34;13&#34; width=&#34;49…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 49, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 49 and a</span>
+
+<pre><code class="input">…es-new/nav/home-libraries.gif&#34; alt=&#34;Libraries &#34; border=&#34;0&#34; height=&#34;13&#34; width=…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 50, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 50 and a</span>
+
+<pre><code class="input">…ges-new/nav/home-technology.gif&#34; alt=&#34;Technology &#34; border=&#34;0&#34; height=&#34;13&#34; wid…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 51, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 51 and a</span>
+
+<pre><code class="input">…com&#34;&#62;&#60;img src=&#34;images-new/nav/home-athletics.gif&#34; alt=&#34;Athletics &#34; border=&#34;0&#34;…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 52, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 52 and a</span>
+
+<pre><code class="input">…mages-new/nav/home-publications.gif&#34; alt=&#34;Publications&#34; border=&#34;0&#34; height=&#34;13…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 53, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 53 and a</span>
+
+<pre><code class="input">…es-new/nav/home-calendars.gif&#34; alt=&#34;Calendars&#34; border=&#34;0&#34; height=&#34;13&#34; width=&#34;…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 54, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 54 and a</span>
+
+<pre><code class="input">…new/nav/home-giving.gif&#34; alt=&#34;Pitt Giving &#34; border=&#34;0&#34; height=&#34;13&#34; width=&#34;75&#34;…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 55, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 55 and a</span>
+
+<pre><code class="input">…ges-new/nav/home-employment.gif&#34; alt=&#34;Employment &#34; border=&#34;0&#34; height=&#34;13&#34; wid…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 56, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 56 and a</span>
+
+<pre><code class="input">…=&#34;images-new/nav/home-futureStudents.gif&#34; alt=&#34;Future Students&#34; border=&#34;0&#34; he…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 57, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 57 and a</span>
+
+<pre><code class="input">…s-new/nav/home-students.gif&#34; alt=&#34;Students &#34; border=&#34;0&#34; height=&#34;13&#34; width=&#34;51…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 58, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 58 and a</span>
+
+<pre><code class="input">…new/nav/home-alumni.gif&#34; alt=&#34;Alumni &#34; border=&#34;0&#34; height=&#34;13&#34; width=&#34;41&#34;&#62;&#60;/a&#62;…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 59, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 59 and a</span>
+
+<pre><code class="input">…s-new/nav/home-facstaff.gif&#34; alt=&#34;Faculty/Staff&#34; border=&#34;0&#34; height=&#34;13&#34; width…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 60, Column 8</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: a line 59 and div</span>
+
+<pre><code class="input">  &#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 63, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 63 and div</span>
+
+<pre><code class="input">…s/tlp_mar2008_studentWalking.jpg&#34; alt=&#34;&#34; border=&#34;0&#34; height=&#34;190&#34; width=&#34;401&#34;&#62;…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 75, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 75 and a</span>
+
+<pre><code class="input">…FMPro?-db=m&#38;amp;-lay=a&#38;amp;-format=r.htm&#38;amp;-Find&#34;&#62;&#60;img src=&#34;images-new/head…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 77, Column 8</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: a line 75 and p</span>
+
+<pre><code class="input">    &#60;/p<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 85, Column 8</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: p line 75 and div</span>
+
+<pre><code class="input">  &#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 90, Column 33</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 89 and a</span>
+
+<pre><code class="input">        Chancellor Nordenberg&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 90, Column 39</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: a line 89 and div</span>
+
+<pre><code class="input">        Chancellor Nordenberg&#60;/a&#62;&#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 98, Column 33</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 97 and a</span>
+
+<pre><code class="input">        Blue Gold &#38;amp; Green&#60;/a<strong title="Position where error was detected.">&#62;</strong>&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 98, Column 39</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: a line 97 and div</span>
+
+<pre><code class="input">        Blue Gold &#38;amp; Green&#60;/a&#62;&#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 100, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 100 and a</span>
+
+<pre><code class="input">…ww.pc.pitt.edu&#34;&#62;&#60;img src=&#34;images-new/icons/icon_panthercentral.jpg&#34; alt=&#34;&#34; st…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 101, Column 68</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: a line 100 and div</span>
+
+<pre><code class="input">…http://www.pc.pitt.edu&#34;&#62;Panther Central&#60;/a&#62;&#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 112, Column &gt; 80</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: img line 112 and a</span>
+
+<pre><code class="input">…veterans.pitt.edu&#34;&#62;&#60;img src=&#34;images-new/icons-new/icon-veteransservices.jpg&#34; …</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 113, Column 71</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: a line 112 and div</span>
+
+<pre><code class="input">…eterans.pitt.edu&#34;&#62;Veterans Services &#60;/a&#62;&#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 129, Column 11</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: input line 128 and form</span>
+
+<pre><code class="input">    &#60;/form<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 130, Column 6</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: input line 127 and div</span>
+
+<pre><code class="input">&#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 178, Column 6</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: input line 126 and div</span>
+
+<pre><code class="input">&#60;/div<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 216, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: input line 125 and body</span>
+
+<pre><code class="input">&#60;/body<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Opening and ending tag mismatch: input line 124 and html</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag input line 123</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag input line 122</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag input line 121</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag input line 120</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag input line 119</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag input line 118</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag form line 117</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 116</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 112</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 100</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 97</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 89</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 88</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 74</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 62</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 58</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 57</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 56</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 55</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 54</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 53</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 52</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 51</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 50</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 49</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 48</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 47</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 46</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 45</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 45</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 43</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 40</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 40</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag a line 40</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 39</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 37</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag div line 36</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag body line 34</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag meta line 9</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag meta line 8</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag meta line 6</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag head line 3</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 217, Column 7</em>:
+        <span class="msg">XML Parsing Error:  Premature end of data in tag html line 2</span>
+
+<pre><code class="input">&#60;/html<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.pitt.edu%2F;errmsg_id=xmlwf#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+      </li>
+  
+    
+</ol>
+
+<p class="backtop"><a href="#jumpbar">&uarr; Top</a></p>
+
+
+
+
+
+
+  </div>
+
+                
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+</div><!-- results_container-->
+
+<ul class="navbar" id="menu">
+    <li><a href="./" accesskey="1" title="Go to the Home Page for The W3C Markup Validation Service">Home</a><span> | </span></li>
+    <li><a href="./about.html" title="Information About this Service">About...</a><span> | </span></li>
+
+    <li><a href="./whatsnew.html" title="The changes made to this service recently">News</a><span> | </span></li>
+    <li><a href="./docs/" accesskey="3" title="Documentation for this Service">Docs</a><span> | </span></li>
+	<li><a href="./docs/help.html" title="Help and answers to frequently asked questions">Help&nbsp;&amp;&nbsp;<acronym title="Frequently Asked Questions">FAQ</acronym></a><span> | </span></li>
+    <li><a href="./feedback.html" accesskey="4" title="How to provide feedback on this service">Feedback</a><span> | </span></li>
+    <li><a href="./contribute.html" title="How to contribute to the validator project">Contribute</a><span> | </span></li>
+</ul>
+<div id="footer">
+
+	<p id="activity_logos">
+		<a href="http://www.w3.org/Status" title="W3C's Open Source, bringing you free Web quality tools and more"><img src="http://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C" /><img src="http://www.opensource.org/trademarks/opensource/web/opensource-55x48.jpg" alt="Open-Source" title="We are building certified Open Source/Free Software. - see www.opensource.org" /></a>
+	</p>
+
+		<p id="support_logo">
+			<a href="http://www.w3.org/QA/Tools/Donate">
+			<img src="http://www.w3.org/QA/Tools/I_heart_validator" alt="I heart Validator logo" title=" Validators Donation Program" />
+			</a>
+		</p>
+    <p id="version_info">
+      This service runs the W3C Markup Validator, <a href="whatsnew.html#t2008-11-20"><abbr title="version">v</abbr>0.8.5</a>. 
+    </p>
+
+		<p class="copyright">
+			<a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 1994-2009
+			<a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a>&reg;
+
+			(<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>,
+			<a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>,
+			<a href="http://www.keio.ac.jp/">Keio</a>),
+			All Rights Reserved.
+			W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
+			<a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a>,
+			<a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a>
+
+			and <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-software">software licensing</a>
+
+			rules apply. Your interactions with this site are in accordance
+			with our <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Public">public</a> and
+			<a href="http://www.w3.org/Consortium/Legal/privacy-statement#Members">Member</a> privacy
+			statements.
+		</p>
+</div><!-- footer -->
+	</body>
+
+</html>
+
+
+

@@ -1,0 +1,2164 @@
+status: 200
+content-location: http://validator.w3.org/check?uri=http://www.soka.edu/
+content-language: en
+server: Apache/2.2.9 (Debian) mod_python/3.3.1 Python/2.5.2
+x-w3c-validator-status: Invalid
+x-w3c-validator-errors: 18
+x-w3c-validator-warnings: 53
+date: Wed, 01 Jul 2009 00:22:43 GMT
+x-w3c-validator-recursion: 1
+content-type: text/html; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>
+            [Invalid]
+            Markup Validation of http://www.soka.edu/ - W3C Markup Validator</title>
+        <link rel="icon" href="data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%10%00%00%00%10%08%02%00%00%00%90%91h6%00%00%00%19IDAT(%91c%BCd%AB%C2%40%0A%60%22I%F5%A8%86Q%0DCJ%03%00%DE%B5%01S%07%88%8FG%00%00%00%00IEND%AEB%60%82" type="image/png" />
+    <link rev="made" href="mailto:www-validator@w3.org" />
+    <link rev="start" href="./" title="Home Page" />
+    <style type="text/css" media="all">@import "./style/base.css";
+            @import "./style/results.css";</style>
+    <meta name="keywords" content="HTML, HyperText Markup Language, Validation,
+      W3C Markup Validation Service" />
+    <meta name="description" content="W3C's easy-to-use
+      HTML validation service, based on an SGML parser." />
+  </head>
+  <body>
+    
+    <div id="banner">
+     <h1 id="title">
+       <a href="http://www.w3.org/"><img alt="W3C" width="110" height="61" id="logo" src="./images/w3c.png" /></a>
+ 			<a href="./"><span>Markup Validation Service</span></a>
+       </h1>
+       <p id="tagline">Check the markup (HTML, XHTML, …) of Web documents</p>
+    </div>
+
+
+<div id="results_container">
+
+
+
+        <ul class="navbar" id="jumpbar">
+                <li><strong>Jump To:</strong></li>
+                
+                        <li><a href="#preparse_warnings">Notes and Potential Issues</a></li>
+                
+                
+          <li><a title="Result of Validation" href="#result">Validation Output</a></li>
+          
+          
+
+  
+  
+
+  
+  
+  
+  
+        </ul>
+
+<!-- valid/invalid header and revalidation table -->
+
+    
+  <h2 id="results" class="invalid">Errors found while checking this document as HTML 4.01 Transitional!</h2>
+    
+  
+
+
+
+
+  
+    <form id="form" method="get" action="check">
+  
+
+  <table class="header">
+    <tr>
+    <th>Result:</th>
+    
+    <td colspan="2" class="invalid">
+      18 Errors, 53 warning(s)
+     <!-- this case where validation fails but no error is listed should never happen -->   
+    
+    </td>
+    </tr>
+    <tr>
+
+    
+      <th><label title="Address of Page to Validate" for="uri">Address</label>:</th>
+      <td colspan="2"><input type="text" id="uri" name="uri" value="http://www.soka.edu/" size="50" /></td>
+      
+
+    </tr>
+
+
+
+  <tr>
+    <th><label title="Character Encoding" for="charset">Encoding</label>:</th>
+    <td>utf-8</td><td><select name="charset" id="charset">
+  <option value="(detect automatically)">(detect automatically)</option>
+  <option value="utf-8" >utf-8 (Unicode, worldwide)</option>
+  <option value="utf-16" >utf-16 (Unicode, worldwide)</option>
+  <option value="iso-8859-1" >iso-8859-1 (Western Europe)</option>
+  <option value="iso-8859-2" >iso-8859-2 (Central Europe)</option>
+  <option value="iso-8859-3" >iso-8859-3 (Southern Europe)</option>
+  <option value="iso-8859-4" >iso-8859-4 (North European)</option>
+  <option value="iso-8859-5" >iso-8859-5 (Cyrillic)</option>
+  <option value="iso-8859-6-i" >iso-8859-6-i (Arabic)</option>
+  <option value="iso-8859-7" >iso-8859-7 (Greek)</option>
+  <option value="iso-8859-8" >iso-8859-8 (Hebrew, visual)</option>
+  <option value="iso-8859-8-i" >iso-8859-8-i (Hebrew, logical)</option>
+  <option value="iso-8859-9" >iso-8859-9 (Turkish)</option>
+  <option value="iso-8859-10" >iso-8859-10 (Latin 6)</option>
+  <option value="iso-8859-11" >iso-8859-11 (Latin/Thai)</option>
+  <option value="iso-8859-13" >iso-8859-13 (Latin 7, Baltic Rim)</option>
+  <option value="iso-8859-14" >iso-8859-14 (Latin 8, Celtic)</option>
+  <option value="iso-8859-15" >iso-8859-15 (Latin 9)</option>
+  <option value="iso-8859-16" >iso-8859-16 (Latin 10)</option>
+  <option value="us-ascii" >us-ascii (basic English)</option>
+  <option value="euc-jp" >euc-jp (Japanese, Unix)</option>
+  <option value="shift_jis" >shift_jis (Japanese, Win/Mac)</option>
+  <option value="iso-2022-jp" >iso-2022-jp (Japanese, email)</option>
+  <option value="euc-kr" >euc-kr (Korean)</option>
+  <option value="gb2312" >gb2312 (Chinese, simplified)</option>
+  <option value="gb18030" >gb18030 (Chinese, simplified)</option>
+  <option value="big5" >big5 (Chinese, traditional)</option>
+  <option value="big5-HKSCS" >Big5-HKSCS (Chinese, Hong Kong)</option>
+  <option value="tis-620" >tis-620 (Thai)</option>
+  <option value="koi8-r" >koi8-r (Russian)</option>
+  <option value="koi8-u" >koi8-u (Ukrainian)</option>
+  <option value="iso-ir-111" >iso-ir-111 (Cyrillic KOI-8)</option>  
+  <option value="macintosh" >macintosh (MacRoman)</option>
+  <option value="windows-1250" >windows-1250 (Central Europe)</option>
+  <option value="windows-1251" >windows-1251 (Cyrillic)</option>
+  <option value="windows-1252" >windows-1252 (Western Europe)</option>
+  <option value="windows-1253" >windows-1253 (Greek)</option>
+  <option value="windows-1254" >windows-1254 (Turkish)</option>
+  <option value="windows-1255" >windows-1255 (Hebrew)</option>
+  <option value="windows-1256" >windows-1256 (Arabic)</option>
+  <option value="windows-1257" >windows-1257 (Baltic Rim)</option>
+</select>
+</td>
+  </tr>
+
+
+  <tr>
+    <th><label for="doctype" title="Document Type">Doctype</label>:</th>
+    <td>HTML 4.01 Transitional</td><td><select id="doctype" name="doctype">
+  <option value="Inline">(detect automatically)</option>
+  <option value="HTML5">HTML5 (experimental)</option>
+  <option value="XHTML 1.0 Strict">XHTML 1.0 Strict</option>
+  <option value="XHTML 1.0 Transitional" >XHTML 1.0 Transitional</option>
+  <option value="XHTML 1.0 Frameset" >XHTML 1.0 Frameset</option>
+  <option value="HTML 4.01 Strict" >HTML 4.01 Strict</option>
+  <option value="HTML 4.01 Transitional" >HTML 4.01 Transitional</option>
+  <option value="HTML 4.01 Frameset" >HTML 4.01 Frameset</option>
+  <option value="HTML 3.2" >HTML 3.2</option>
+  <option value="HTML 2.0" >HTML 2.0</option>
+  <option value="ISO/IEC 15445:2000 (&quot;ISO HTML&quot;)" >ISO/IEC 15445:2000 ("ISO HTML")</option>
+  <option value="XHTML 1.1" >XHTML 1.1</option>
+  <option value="XHTML + RDFa" >XHTML + RDFa</option>
+  <option value="XHTML Basic 1.0" >XHTML Basic 1.0</option>
+  <option value="XHTML Basic 1.1" >XHTML Basic 1.1</option>
+  <option value="XHTML Mobile Profile 1.2" >XHTML Mobile Profile 1.2</option>
+  <option value="XHTML-Print 1.0" >XHTML-Print 1.0</option>
+  <option value="XHTML 1.1 plus MathML 2.0" >XHTML 1.1 plus MathML 2.0</option> 
+  <option value="XHTML 1.1 plus MathML 2.0 plus SVG 1.1" >XHTML 1.1 plus MathML 2.0 plus SVG 1.1</option> 
+  <option value="MathML 2.0" >MathML 2.0</option>
+  <option value="SVG 1.0" >SVG 1.0</option>
+  <option value="SVG 1.1" >SVG 1.1</option>
+  <option value="SVG 1.1 Tiny" >SVG 1.1 Tiny</option>
+  <option value="SVG 1.1 Basic" >SVG 1.1 Basic</option>
+  <option value="SMIL 1.0" >SMIL 1.0</option>
+  <option value="SMIL 2.0" >SMIL 2.0</option>
+</select>
+</td>
+  </tr>
+
+
+  <tr>
+    <th>Root Element:</th>
+    <td colspan="2">html</td>
+  </tr>
+
+
+
+  </table>
+
+<div id="don_program"></div>
+<script type="text/javascript" src="http://www.w3.org/QA/Tools/don_prog.js"></script>
+
+        <fieldset id="revalidate_opts">
+                 <legend>Options</legend>
+
+    <table class="header">
+      <tr>
+        <td><input type="checkbox" value="1" id="ss" name="ss" 
+
+		/><label title="Show Page Source" for="ss">Show&nbsp;Source</label></td>
+              <td><input type="checkbox" value="1" id="outline" name="outline" 
+
+		/><label title="Show an Outline of the document" for="outline">Show&nbsp;Outline</label></td>
+                <td><input type="radio" name="group" id="group_no" value="0" 
+                        
+                        	checked="checked"
+                        
+                        /><label for="group_no">List Messages Sequentially</label> 
+                        <input type="radio" name="group" id="group_yes" value="1"
+                                
+                                 /><label for="group_yes">Group Error Messages by Type</label></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" value="1" id="No200" name="No200"
+
+		/><label title="Validate also pages for which the HTTP status code indicates an error" for="No200">Validate&nbsp;error&nbsp;pages</label></td>
+              <td><input type="checkbox" value="1" id="verbose" name="verbose"
+
+		/><label title="Show Verbose Output" for="verbose">Verbose&nbsp;Output</label></td>
+    		<td><input id="st" name="st" type="checkbox" value="1"
+                        
+    		         /><label for="st">Clean up Markup with HTML Tidy</label></td>
+            </tr>
+
+    </table>
+        <p class="moreinfo">
+          <a href="docs/users.html#Options">Help</a> on the options is available.
+        </p>
+    <div id="revalidate_button" class="submit_button">
+ <input type="hidden" value="W3C_Validator/1.654" id="user-agent" name="user-agent" />
+      <input type="submit" value="Revalidate" title="Validate this document again" />
+    </div>
+  </fieldset>
+</form>
+
+
+
+                
+
+
+                
+                  
+
+  <h3 id="preparse_warnings">Notes and Potential Issues</h3>
+<p>The following notes and warnings highlight missing or conflicting information which caused the validator to perform some guesswork prior to validation. If the guess or fallback is incorrect, it could make validation results entirely incoherent. It is <em>highly recommended</em> 
+to check these potential issues, and, if necessary, fix them and re-validate the document.</p>
+<ol id="warnings">
+
+
+
+
+
+
+
+
+
+
+
+  <li class="msg_warn" id="W06"><p><span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span> <span class="msg">Unable to Determine Parse Mode!</span></p>
+  <p>The validator can process documents either as XML (for document types such as XHTML, SVG, etc.) or SGML (for HTML 4.01 and prior versions). For this document, the information available was not sufficient to determine the parsing mode unambiguously, because:</p>
+  <ul>
+    <li>
+    the MIME Media Type (<code>text/html</code>)  can be used for XML or SGML document types</li>
+    <li>No known Document Type could be detected</li>
+    <li>No XML declaration (<abbr>e.g</abbr> <code>&lt;?xml version="1.0"?&gt;</code>) could be found at the beginning of the document.</li>
+    <li>No XML namespace (<abbr>e.g</abbr> <code>&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&gt;</code>) could be found at the root of the document.</li>
+    </ul>
+    <p>As a default, the validator is falling back to SGML mode.</p>
+    </li>
+
+
+
+
+  <li class="msg_warn" id="W09"><p><span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span> <span class="msg">No <code>DOCTYPE</code> found! Checking with default HTML 4.01 Transitional Document Type.</span></p>
+  
+    <p>
+      No DOCTYPE Declaration could be found or recognized in this document. This
+      generally means that the document is not declaring its Document Type at the top. 
+      It can also mean that the DOCTYPE declaration contains a spelling error, 
+      or that it is not using the correct syntax.
+    </p>
+    <p> 
+      The document was checked using a default "fallback" Document Type Definition
+      that closely resembles “HTML 4.01 Transitional”.
+    </p>
+    
+    <p>Learn <a href="docs/help.html#faq-doctype">how to add a doctype to your document</a> 
+    from our <acronym title="Frequently Asked Questions">FAQ</acronym>.</p>
+  
+
+  </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li class="msg_warn" id="W19"><p><span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span> <span class="msg">Character Encoding mismatch!</span></p>
+  
+    <p>
+      The character encoding specified in the HTTP header
+        (<code>utf-8</code>)
+      is different from the value in the <code>&lt;meta&gt;</code> element
+      (<code>iso-8859-1</code>). I will use the
+      value from the HTTP header
+      (<code>utf-8</code>) for this
+      validation.
+    </p>
+  </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ol><!-- End of "warnings". -->
+
+
+
+<p class="backtop"><a href="#jumpbar">&uarr; Top</a></p>
+
+
+<div id="result">
+
+<h3 class="invalid"
+>Validation Output:
+        <!-- this case where validation fails but no error is listed should never happen -->
+        
+        
+        18 Errors
+        </h3>
+
+
+    <ol id="error_loop">
+
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 3, Column 1</em>:
+        <span class="msg">no document type declaration; implying &quot;&lt;!DOCTYPE HTML SYSTEM&gt;&quot;</span>
+
+<pre><code class="input"><strong title="Position where error was detected.">&#60;</strong>html&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=344#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-344">
+    <p>
+	The checked page did not contain a document type ("DOCTYPE") declaration.
+	The Validator has tried to validate with a fallback DTD,
+        but this is quite likely to be incorrect and will generate a large number
+        of incorrect error messages. It is highly recommended that you insert the
+	proper DOCTYPE declaration in your document -- instructions for doing this
+	are given above -- and it is necessary to have this declaration before the
+ 	page can be declared to be valid.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 104, Column 104</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ner/assets/skins/sam/container.css&#34; <strong title="Position where error was detected.">/</strong>&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 105, Column 109</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ssets/skins/sam/container-skin.css&#34; <strong title="Position where error was detected.">/</strong>&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 105, Column 109</em>:
+        <span class="msg">document type does not allow element &quot;LINK&quot; here</span>
+
+<pre><code class="input">…ssets/skins/sam/container-skin.css&#34; <strong title="Position where error was detected.">/</strong>&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=64#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-64">
+    <p>
+      The element named above was found in a context where it is not allowed.
+      This could mean that you have incorrectly nested elements -- such as a
+      "style" element in the "body" section instead of inside "head" -- or
+      two elements that overlap (which is not allowed).
+    </p>
+    <p>
+      One common cause for this error is the use of XHTML syntax in HTML
+      documents. Due to HTML's rules of implicitly closed elements, this error
+      can create cascading effects. For instance, using XHTML's "self-closing"
+      tags for "meta" and "link" in the "head" section of a HTML document may
+      cause the parser to infer the end of the "head" section and the
+      beginning of the "body" section (where "link" and "meta" are not
+      allowed; hence the reported error).
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 108, Column 132</em>:
+        <span class="msg">document type does not allow element &quot;LINK&quot; here</span>
+
+<pre><code class="input">…&#34;http://www.soka.edu/rss.cfm?news=0&#34;<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=64#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-64">
+    <p>
+      The element named above was found in a context where it is not allowed.
+      This could mean that you have incorrectly nested elements -- such as a
+      "style" element in the "body" section instead of inside "head" -- or
+      two elements that overlap (which is not allowed).
+    </p>
+    <p>
+      One common cause for this error is the use of XHTML syntax in HTML
+      documents. Due to HTML's rules of implicitly closed elements, this error
+      can create cascading effects. For instance, using XHTML's "self-closing"
+      tags for "meta" and "link" in the "head" section of a HTML document may
+      cause the parser to infer the end of the "head" section and the
+      beginning of the "body" section (where "link" and "meta" are not
+      allowed; hence the reported error).
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 136, Column 24</em>:
+        <span class="msg">document type does not allow element &quot;STYLE&quot; here</span>
+
+<pre><code class="input">	&#60;style type=&#34;text/css&#34;<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=64#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-64">
+    <p>
+      The element named above was found in a context where it is not allowed.
+      This could mean that you have incorrectly nested elements -- such as a
+      "style" element in the "body" section instead of inside "head" -- or
+      two elements that overlap (which is not allowed).
+    </p>
+    <p>
+      One common cause for this error is the use of XHTML syntax in HTML
+      documents. Due to HTML's rules of implicitly closed elements, this error
+      can create cascading effects. For instance, using XHTML's "self-closing"
+      tags for "meta" and "link" in the "head" section of a HTML document may
+      cause the parser to infer the end of the "head" section and the
+      beginning of the "body" section (where "link" and "meta" are not
+      allowed; hence the reported error).
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 306, Column 30</em>:
+        <span class="msg">required attribute &quot;TYPE&quot; not specified</span>
+
+<pre><code class="input">&#60;SCRIPT language=&#34;JavaScript&#34;<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 315, Column 65</em>:
+        <span class="msg">document type does not allow element &quot;LINK&quot; here</span>
+
+<pre><code class="input">…ploaded/main.css&#34; type=&#34;text/css&#34; rel=&#34;stylesheet&#34; <strong title="Position where error was detected.">&#62;</strong>&#60;/head&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=64#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-64">
+    <p>
+      The element named above was found in a context where it is not allowed.
+      This could mean that you have incorrectly nested elements -- such as a
+      "style" element in the "body" section instead of inside "head" -- or
+      two elements that overlap (which is not allowed).
+    </p>
+    <p>
+      One common cause for this error is the use of XHTML syntax in HTML
+      documents. Due to HTML's rules of implicitly closed elements, this error
+      can create cascading effects. For instance, using XHTML's "self-closing"
+      tags for "meta" and "link" in the "head" section of a HTML document may
+      cause the parser to infer the end of the "head" section and the
+      beginning of the "body" section (where "link" and "meta" are not
+      allowed; hence the reported error).
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 315, Column 72</em>:
+        <span class="msg">end tag for element &quot;HEAD&quot; which is not open</span>
+
+<pre><code class="input">…ss&#34; type=&#34;text/css&#34; rel=&#34;stylesheet&#34; &#62;&#60;/head<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=79#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-79">
+    <p>
+      The Validator found an end tag for the above element, but that element is
+      not currently open. This is often caused by a leftover end tag from an
+      element that was removed during editing, or by an implicitly closed
+      element (if you have an error related to an element being used where it
+      is not allowed, this is almost certainly the case). In the latter case
+      this error will disappear as soon as you fix the original problem.
+    </p>
+    <p>
+      If this error occurred in a script section of your document, you should probably
+      read this <a href="http://validator.w3.org/docs/help.html#faq-javascript">FAQ entry</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 317, Column 91</em>:
+        <span class="msg">document type does not allow element &quot;BODY&quot; here</span>
+
+<pre><code class="input">…(err){};try{loadmap()}catch(err){}&#34; <strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=64#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-64">
+    <p>
+      The element named above was found in a context where it is not allowed.
+      This could mean that you have incorrectly nested elements -- such as a
+      "style" element in the "body" section instead of inside "head" -- or
+      two elements that overlap (which is not allowed).
+    </p>
+    <p>
+      One common cause for this error is the use of XHTML syntax in HTML
+      documents. Due to HTML's rules of implicitly closed elements, this error
+      can create cascading effects. For instance, using XHTML's "self-closing"
+      tags for "meta" and "link" in the "head" section of a HTML document may
+      cause the parser to infer the end of the "head" section and the
+      beginning of the "body" section (where "link" and "meta" are not
+      allowed; hence the reported error).
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 333, Column 230</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ut Soka&#34; id=&#34;dhtmlbtn_2&#34; border=&#34;0&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;a href=&#34;page.cfm?p=10&#34; onmouseout=</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 333, Column 430</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ssions&#34; id=&#34;dhtmlbtn_10&#34; border=&#34;0&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;a href=&#34;page.cfm?p=11&#34; onmouseout=</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 333, Column 629</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…demics&#34; id=&#34;dhtmlbtn_11&#34; border=&#34;0&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;a href=&#34;page.cfm?p=12&#34; onmouseout=</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 333, Column 829</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…t Life&#34; id=&#34;dhtmlbtn_12&#34; border=&#34;0&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;a href=&#34;page.cfm?p=13&#34; onmouseout=</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 333, Column 1028</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…letics&#34; id=&#34;dhtmlbtn_13&#34; border=&#34;0&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;a href=&#34;http://ikedalibrary.soka.e</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 333, Column 1238</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ibrary&#34; id=&#34;library_btn&#34; border=&#34;0&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;a href=&#34;http://www.alumni.soka.edu</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 333, Column 1441</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…&#34;Alumni&#34; id=&#34;alumni_btn&#34; border=&#34;0&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;a href=&#34;page.cfm?p=15&#34; onmouseout=</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 333, Column 1647</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…riends&#34; id=&#34;dhtmlbtn_15&#34; border=&#34;0&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;a href=&#34;page.cfm?p=16&#34; onmouseout=</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 333, Column 1843</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…t Soka&#34; id=&#34;dhtmlbtn_16&#34; border=&#34;0&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;/div&#62;&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 344, Column 235</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…&#34; border=&#34;0&#34; height=&#34;20&#34; width=&#34;61&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;a href=&#34;page.cfm?p=194&#34;&#62;&#60;img src=&#34;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 344, Column 359</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…&#34; border=&#34;0&#34; height=&#34;20&#34; width=&#34;70&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62; &#60;/div&#62;&#60;img src=&#34;uploaded/images/ph</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 344, Column 414</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…rc=&#34;uploaded/images/photo_home.jpg&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;br /&#62;&#60;img src=&#34;uploaded/images/logo_ho</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 344, Column 414</em>:
+        <span class="msg">required attribute &quot;ALT&quot; not specified</span>
+
+<pre><code class="input">…rc=&#34;uploaded/images/photo_home.jpg&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;br /&#62;&#60;img src=&#34;uploaded/images/logo_ho</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 344, Column 420</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…loaded/images/photo_home.jpg&#34; /&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;img src=&#34;uploaded/images/logo_home2.gi</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 344, Column 490</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ome2.gif&#34; style=&#34;margin-top: -17px&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 344, Column 490</em>:
+        <span class="msg">required attribute &quot;ALT&quot; not specified</span>
+
+<pre><code class="input">…ome2.gif&#34; style=&#34;margin-top: -17px&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 378, Column 53</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ontent100&#62;&#60;h2 class=&#34;MsoNormal&#34;&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;a href=&#34;page.cfm?p=55&#34;&#62;ADMISSION EVENT</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 378, Column 434</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ission deadline is Jan 15, 2010.&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;/p&#62;&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 401, Column 24</em>:
+        <span class="msg">document type does not allow element &quot;STYLE&quot; here</span>
+
+<pre><code class="input">	&#60;style type=&#34;text/css&#34;<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=64#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-64">
+    <p>
+      The element named above was found in a context where it is not allowed.
+      This could mean that you have incorrectly nested elements -- such as a
+      "style" element in the "body" section instead of inside "head" -- or
+      two elements that overlap (which is not allowed).
+    </p>
+    <p>
+      One common cause for this error is the use of XHTML syntax in HTML
+      documents. Due to HTML's rules of implicitly closed elements, this error
+      can create cascading effects. For instance, using XHTML's "self-closing"
+      tags for "meta" and "link" in the "head" section of a HTML document may
+      cause the parser to infer the end of the "head" section and the
+      beginning of the "body" section (where "link" and "meta" are not
+      allowed; hence the reported error).
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 512, Column 322</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…pg&#34; height=&#34;98&#34; style=&#34;FLOAT: left&#34; <strong title="Position where error was detected.">/</strong>&#62;To 8/20 &#60;a href=&#34;page.cfm?p=918&#34;&#62;&#60;em&#62;Cl</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 512, Column 322</em>:
+        <span class="msg">required attribute &quot;ALT&quot; not specified</span>
+
+<pre><code class="input">…pg&#34; height=&#34;98&#34; style=&#34;FLOAT: left&#34; <strong title="Position where error was detected.">/</strong>&#62;To 8/20 &#60;a href=&#34;page.cfm?p=918&#34;&#62;&#60;em&#62;Cl</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 512, Column 417</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…&#62; SUA Student Art Exhibition&#60;/a&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;To 8/20 &#60;a href=&#34;page.cfm?p=918&#34;&#62;&#60;em&#62;Se</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 512, Column 510</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…aphic Expression in America&#60;/em&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;8/28&#38;nbsp; &#60;a href=&#34;page.cfm?p=918&#34;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 512, Column 606</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…Band Concert Under the Stars&#60;/a&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;9/25 &#60;a href=&#34;page.cfm?p=918&#34;&#62;Opening R</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 512, Column 705</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…Gestures of Rita Blitt&#60;/a&#62;&#38;nbsp;&#60;br <strong title="Position where error was detected.">/</strong>&#62;10/10 &#60;a href=&#34;page.cfm?p=893&#34;&#62;SUA's 5t</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 534, Column 31</em>:
+        <span class="msg">Attribute &quot;HEIGHT&quot; is not a valid attribute. Did you mean &quot;height&quot;?</span>
+
+<pre><code class="input">			&#60;table width=&#34;100%&#34; height=<strong title="Position where error was detected.">&#34;</strong>100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 540, Column 731</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ferences&#60;/a&#62;&#60;/li&#62;&#60;/ul&#62;&#60;/div&#62;&#60;h2&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;WELCOME&#60;/h2&#62;&#60;p&#62;Welcome to California's </code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 540, Column 1793</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…loaded/postcard4c.gif&#34; height=&#34;140&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#38;nbsp;&#60;br /&#62;&#60;a href=&#34;page.cfm?p=893</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 540, Column 1793</em>:
+        <span class="msg">required attribute &quot;ALT&quot; not specified</span>
+
+<pre><code class="input">…loaded/postcard4c.gif&#34; height=&#34;140&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#38;nbsp;&#60;br /&#62;&#60;a href=&#34;page.cfm?p=893</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 540, Column 1809</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…c.gif&#34; height=&#34;140&#34; /&#62;&#60;/a&#62;&#38;nbsp;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;a href=&#34;page.cfm?p=893&#34;&#62;&#60;strong&#62;Soka U</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 540, Column 2169</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…n of Peace&#60;/strong&#62;!&#60;/em&#62;&#60;/p&#62;&#60;p&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;Be sure to take a look at&#38;nbsp; other u</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 540, Column 2820</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…here!&#60;/a&#62;&#60;/p&#62;&#60;h4&#62;Soka University&#60;br <strong title="Position where error was detected.">/</strong>&#62;1 University Drive&#60;br /&#62;Aliso Viejo, CA</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 540, Column 2844</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…iversity&#60;br /&#62;1 University Drive&#60;br <strong title="Position where error was detected.">/</strong>&#62;Aliso Viejo, CA 92656&#60;br /&#62;949.480.4000</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 540, Column 2871</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…Drive&#60;br /&#62;Aliso Viejo, CA 92656&#60;br <strong title="Position where error was detected.">/</strong>&#62;949.480.4000&#60;br /&#62;&#60;a href=&#34;mailto:info@</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 540, Column 2889</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…iejo, CA 92656&#60;br /&#62;949.480.4000&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;a href=&#34;mailto:info@soka.edu&#34;&#62;info@sok</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 562, Column 52</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…content73&#62;&#60;div id=&#34;box_voices7&#34;&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;h2&#62;THE VOICES OF SOKA &#60;/h2&#62;&#60;p&#62;&#60;a href=</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 562, Column 225</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…wai&#34; height=&#34;120&#34; class=&#34;floatleft&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;strong&#62;Lisa Kawai&#60;/strong&#62;&#60;br /&#62;Cl</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 562, Column 262</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…&#62;&#60;/a&#62;&#60;strong&#62;Lisa Kawai&#60;/strong&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;Class 2006&#60;br /&#62;USA&#60;/p&#62;&#60;br clear=&#34;all&#34; </code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 562, Column 278</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…a Kawai&#60;/strong&#62;&#60;br /&#62;Class 2006&#60;br <strong title="Position where error was detected.">/</strong>&#62;USA&#60;/p&#62;&#60;br clear=&#34;all&#34; /&#62;&#60;p&#62;&#34;Unlike man</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 562, Column 303</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ss 2006&#60;br /&#62;USA&#60;/p&#62;&#60;br clear=&#34;all&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;p&#62;&#34;Unlike many other students here, I </code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 562, Column 467</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ploaded/images/button_readmore.gif&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;/p&#62;&#60;/div&#62;&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 562, Column 467</em>:
+        <span class="msg">required attribute &quot;ALT&quot; not specified</span>
+
+<pre><code class="input">…ploaded/images/button_readmore.gif&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;/p&#62;&#60;/div&#62;&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 34</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">							&#60;div id=content79&#62;&#60;h4&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;PODCASTS OF SUA LECTURES&#38;nbsp;&#60;img border=&#34;0&#34;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 196</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">… style=&#34;width: 82px; height: 115px&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/h4&#62;&#60;p&#62;&#60;strong&#62;&#60;span style=&#34;font-size:</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 581, Column 196</em>:
+        <span class="msg">required attribute &quot;ALT&quot; not specified</span>
+
+<pre><code class="input">… style=&#34;width: 82px; height: 115px&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/h4&#62;&#60;p&#62;&#60;strong&#62;&#60;span style=&#34;font-size:</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 268</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…size: 8pt&#34;&#62;Dr. Anwarul Chowdhury&#60;br <strong title="Position where error was detected.">/</strong>&#62;spoke at SUA.&#38;nbsp;&#60;br /&#62;&#60;/span&#62;&#60;/stron</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 293</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…owdhury&#60;br /&#62;spoke at SUA.&#38;nbsp;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;/span&#62;&#60;/strong&#62;&#60;br /&#62;&#60;a href=&#34;javascri</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 315</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…SUA.&#38;nbsp;&#60;br /&#62;&#60;/span&#62;&#60;/strong&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;a href=&#34;javascript:popMedia('g=17')&#34;&#62;&#60;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 1062</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…pub/feed-icon16x16.png&#34; height=&#34;16&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/span&#62;&#60;/a&#62;&#60;br /&#62;&#38;nbsp;&#60;/p&#62;&#60;a target=&#34;_</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 581, Column 1062</em>:
+        <span class="msg">required attribute &quot;ALT&quot; not specified</span>
+
+<pre><code class="input">…pub/feed-icon16x16.png&#34; height=&#34;16&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/span&#62;&#60;/a&#62;&#60;br /&#62;&#38;nbsp;&#60;/p&#62;&#60;a target=&#34;_</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 1079</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…6.png&#34; height=&#34;16&#34; /&#62;&#60;/span&#62;&#60;/a&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#38;nbsp;&#60;/p&#62;&#60;a target=&#34;_blank&#34; href=&#34;http</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 1298</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">… Email&#60;/a&#62; &#60;h4&#62;SUA CAMPUS VIDEOS&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;a href=&#34;page.cfm?p=185&#34;&#62;&#60;span style=&#34;c</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 1410</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…panese, Spanish&#38;nbsp;&#60;/span&#62;&#60;/a&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#38;nbsp;&#60;br /&#62;&#60;br /&#62;&#60;a href=&#34;page.cfm?p=9</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 1422</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…ish&#38;nbsp;&#60;/span&#62;&#60;/a&#62;&#60;br /&#62;&#38;nbsp;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;br /&#62;&#60;a href=&#34;page.cfm?p=981&#34;&#62;GRADUATE</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 1428</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…sp;&#60;/span&#62;&#60;/a&#62;&#60;br /&#62;&#38;nbsp;&#60;br /&#62;&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;a href=&#34;page.cfm?p=981&#34;&#62;GRADUATE SCHOO</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 1474</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…&#34;page.cfm?p=981&#34;&#62;GRADUATE SCHOOL&#60;br <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;/h4&#62;&#60;h4&#62;&#60;a href=&#34;page.cfm?p=981&#34;&#62;&#60;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 581, Column 1613</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">…uate/graduatelogo.GIF&#34; height=&#34;151&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;/h4&#62;&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 581, Column 1613</em>:
+        <span class="msg">required attribute &quot;ALT&quot; not specified</span>
+
+<pre><code class="input">…uate/graduatelogo.GIF&#34; height=&#34;151&#34; <strong title="Position where error was detected.">/</strong>&#62;&#60;/a&#62;&#60;/h4&#62;&#60;/div&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.soka.edu%2F;errmsg_id=127#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-127">
+    <p>
+      The attribute given above is required for an element that you've used,
+      but you have omitted it. For instance, in most HTML and XHTML document
+      types the "type" attribute is required on the "script" element and the
+      "alt" attribute is required for the "img" element.
+    </p>
+    <p>
+      Typical values for <code>type</code> are 
+      <code>type="text/css"</code> for <code>&lt;style&gt;</code>
+      and <code>type="text/javascript"</code> for <code>&lt;script&gt;</code>.
+    </p>
+  </div>
+      </li>
+  
+    
+</ol>
+
+<p class="backtop"><a href="#jumpbar">&uarr; Top</a></p>
+
+
+
+
+
+
+  </div>
+
+                
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+</div><!-- results_container-->
+
+<ul class="navbar" id="menu">
+    <li><a href="./" accesskey="1" title="Go to the Home Page for The W3C Markup Validation Service">Home</a><span> | </span></li>
+    <li><a href="./about.html" title="Information About this Service">About...</a><span> | </span></li>
+
+    <li><a href="./whatsnew.html" title="The changes made to this service recently">News</a><span> | </span></li>
+    <li><a href="./docs/" accesskey="3" title="Documentation for this Service">Docs</a><span> | </span></li>
+	<li><a href="./docs/help.html" title="Help and answers to frequently asked questions">Help&nbsp;&amp;&nbsp;<acronym title="Frequently Asked Questions">FAQ</acronym></a><span> | </span></li>
+    <li><a href="./feedback.html" accesskey="4" title="How to provide feedback on this service">Feedback</a><span> | </span></li>
+    <li><a href="./contribute.html" title="How to contribute to the validator project">Contribute</a><span> | </span></li>
+</ul>
+<div id="footer">
+
+	<p id="activity_logos">
+		<a href="http://www.w3.org/Status" title="W3C's Open Source, bringing you free Web quality tools and more"><img src="http://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C" /><img src="http://www.opensource.org/trademarks/opensource/web/opensource-55x48.jpg" alt="Open-Source" title="We are building certified Open Source/Free Software. - see www.opensource.org" /></a>
+	</p>
+
+		<p id="support_logo">
+			<a href="http://www.w3.org/QA/Tools/Donate">
+			<img src="http://www.w3.org/QA/Tools/I_heart_validator" alt="I heart Validator logo" title=" Validators Donation Program" />
+			</a>
+		</p>
+    <p id="version_info">
+      This service runs the W3C Markup Validator, <a href="whatsnew.html#t2008-11-20"><abbr title="version">v</abbr>0.8.5</a>. 
+    </p>
+
+		<p class="copyright">
+			<a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 1994-2009
+			<a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a>&reg;
+
+			(<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>,
+			<a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>,
+			<a href="http://www.keio.ac.jp/">Keio</a>),
+			All Rights Reserved.
+			W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
+			<a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a>,
+			<a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a>
+
+			and <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-software">software licensing</a>
+
+			rules apply. Your interactions with this site are in accordance
+			with our <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Public">public</a> and
+			<a href="http://www.w3.org/Consortium/Legal/privacy-statement#Members">Member</a> privacy
+			statements.
+		</p>
+</div><!-- footer -->
+	</body>
+
+</html>
+
+
+

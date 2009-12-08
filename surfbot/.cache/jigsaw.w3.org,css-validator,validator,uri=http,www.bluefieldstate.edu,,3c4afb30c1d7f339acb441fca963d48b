@@ -1,0 +1,665 @@
+status: 200
+content-location: http://jigsaw.w3.org/css-validator/validator?uri=http://www.bluefieldstate.edu/
+content-language: en
+server: Jigsaw/2.3.0-beta1
+x-w3c-validator-status: Invalid
+x-w3c-validator-errors: 1
+pragma: no-cache
+cache-control: no-cache
+date: Wed, 01 Jul 2009 00:00:44 GMT
+content-type: text/html;charset=utf-8
+
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+        <title>W3C CSS Validator results for http://www.bluefieldstate.edu/ (CSS level 2.1)</title>
+        <link href="http://jigsaw.w3.org/css-validator/" rel="validator" />
+        <link type="text/css" rel='stylesheet' href='style/base.css' />
+        <link type="text/css" rel='stylesheet' href='style/results.css' />
+    </head>
+    <body>
+      <div id="banner">
+       <h1 id="title"><a href="http://www.w3.org/"><img alt="W3C" width="110" height="61" id="logo" src="./images/w3c.png" /></a>
+       <a href="./"><span>CSS Validation Service</span></a></h1>
+
+       <p id="tagline">
+         W3C CSS Validator results for http://www.bluefieldstate.edu/ (CSS level 2.1)
+       </p>
+      </div>
+
+        <ul class="navbar" id="jumpbar">
+            <li><strong>Jump to:</strong></li>
+    
+            <li><a href="#errors">Errors (1)</a></li>
+            
+            <li><a href="#css">Validated CSS</a></li>
+    
+        </ul>
+<div id="results_container">
+   <h2>W3C CSS Validator results for <a href="http://www.bluefieldstate.edu/">http://www.bluefieldstate.edu/</a> (CSS level 2.1)</h2>
+    
+        <!-- DEALING WITH ERRORS -->
+        
+        <div id="errors">
+            <h3>Sorry! We found the following errors (1)</h3>
+                    <div class='error-section-all'>
+                                                                                                
+                <div class='error-section'>
+                    <h4>URI : <a href="http://www.bluefieldstate.edu/">http://www.bluefieldstate.edu/</a></h4>
+                    <table>
+                            
+                        <tr class='error'>
+                            <td class='linenumber' title='Line 94'>94</td>
+                            <td class='codeContext'> .style32 </td>
+                            <td class='parse-error'>
+            
+                                Value Error : <a href="http://www.w3.org/TR/CSS21/fonts.html#propdef-font-size">font-size</a>
+            
+                                only 0 can be a length. You must put a unit after your number : 
+            
+                                <span class="exp">
+                                    18
+                                </span>
+            
+                            </td>
+                        </tr>
+                
+                    </table>
+                </div>
+        
+            </div>
+        </div>
+        <p class="backtop"><a href="#banner">&uarr; Top</a></p>
+    <div class="intro" id="don_program"></div>  
+<script type="text/javascript" src="http://www.w3.org/QA/Tools/don_prog.js"></script>
+
+
+        <div id="css">
+            <h3>Valid CSS information</h3>
+            <div class='vAtRule'>
+    
+            
+                    <div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                body
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background-image</span> :
+                                    <span class='PropertyValue'>url(BKGROUND.gif)</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background-repeat</span> :
+                                    <span class='PropertyValue'>repeat-y</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>background-color</span> :
+                                    <span class='PropertyValue'>#122549</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                body, td, th
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Arial</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>12px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style2
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-style</span> :
+                                    <span class='PropertyValue'>italic</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>"Brush Script MT"</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>24px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ffffff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style6
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>18px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#f2a114</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-family</span> :
+                                    <span class='PropertyValue'>Verdana</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>bold</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style7
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ffffff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style8
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ffffff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>bold</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a:link
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a:visited
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a:hover
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>underline</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                a:active
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>text-decoration</span> :
+                                    <span class='PropertyValue'>none</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style9
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ff0000</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style11
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#000066</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>bold</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style13
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>14px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style14
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#f2a114</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>14px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style16
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ffffff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>14px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style23
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>20px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#f2a114</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>bold</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style26
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ff0000</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>14px</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style27
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>24px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ffffff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style32
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ffffff</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style34
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ffffff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>14px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>bold</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                        <div class='selector'>
+                                                        <span class='selectorValue'>
+                                .style36
+                            </span>
+                            {
+                                                        <div class='RuleList'>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>color</span> :
+                                    <span class='PropertyValue'>#ffffff</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-size</span> :
+                                    <span class='PropertyValue'>16px</span>;
+                                </div>
+            
+                                <div class='Rule'>
+                                    <span class='Property'>font-weight</span> :
+                                    <span class='PropertyValue'>bold</span>;
+                                </div>
+            
+                            </div>
+                                                        }
+                                                    </div>
+        
+                    </div>
+            
+            </div>
+        </div>
+        <p class="backtop"><a href="#banner">&uarr; Top</a></p>
+</div><!-- results_container -->
+        <ul class="navbar" id="menu">
+            <li><strong><a href="./" title="Home page for the W3C CSS Validation Service">Home</a></strong> <span class="hideme">|</span></li>
+            <li><a href="about.html" title="About this service">About</a> <span class="hideme">|</span></li>
+            <li><a href="documentation.html" title="Documentation for the W3C CSS Validation Service">Documentation</a> <span class="hideme">|</span></li>
+            <li><a href="DOWNLOAD.html" title="Download and install the CSS validator">Download</a> <span class="hideme">|</span></li>
+            <li><a href="Email.html" title="How to provide feedback on this service">Feedback</a> <span class="hideme">|</span></li>
+            <li><a href="thanks.html" title="Credits and Acknowlegments">Credits</a></li>
+        </ul>
+
+        <ul id="lang_choice">
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=de"
+                lang="de"
+                xml:lang="de"
+                hreflang="de"
+                rel="alternate">Deutsch</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=en"
+                lang="en"
+                xml:lang="en"
+                hreflang="en"
+                rel="alternate">English</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=es"
+                lang="es"
+                xml:lang="es"
+                hreflang="es"
+                rel="alternate">Español</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=fr"
+                lang="fr"
+                xml:lang="fr"
+                hreflang="fr"
+                rel="alternate">Français</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=ko"
+                lang="ko"
+                xml:lang="ko"
+                hreflang="ko"
+                rel="alternate">한국어</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=it"
+                lang="it"
+                xml:lang="it"
+                hreflang="it"
+                rel="alternate">Italiano</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=nl"
+                lang="nl"
+                xml:lang="nl"
+                hreflang="nl"
+                rel="alternate">Nederlands</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=ja"
+                lang="ja"
+                xml:lang="ja"
+                hreflang="ja"
+                rel="alternate">日本語</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=pl-PL"
+                lang="pl-PL"
+                xml:lang="pl-PL"
+                hreflang="pl-PL"
+                rel="alternate">Polski</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=pt-BR"
+                lang="pt-BR"
+                xml:lang="pt-BR"
+                hreflang="pt-BR"
+                rel="alternate">Português</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=ru"
+                lang="ru"
+                xml:lang="ru"
+                hreflang="ru"
+                rel="alternate">Русский</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=sv"
+                lang="sv"
+                xml:lang="sv"
+                hreflang="sv"
+                rel="alternate">Svenska</a>
+            </li>
+                    
+            <li><a href="?uri=http://www.bluefieldstate.edu/&amp;lang=zh-cn"
+                lang="zh-cn"
+                xml:lang="zh-cn"
+                hreflang="zh-cn"
+                rel="alternate">简体中文</a>
+            </li>
+    
+        </ul>
+<div id="footer">
+        <p id="activity_logos">
+            <a href="http://www.w3.org/QA/" title="W3C's Quality Assurance Activity, bringing you free Web quality tools and more"><img src="http://www.w3.org/QA/2002/12/qa-small.png" alt="QA" /></a><a href="http://www.w3.org/Style/CSS/learning" title="Learn more about Cascading Style Sheets"><img src="images/woolly-icon" alt="CSS" /></a>
+        </p>
+        <p id="support_logo">
+        <a href="http://www.w3.org/QA/Tools/Donate">
+        <img src="http://www.w3.org/QA/Tools/I_heart_validator" alt="I heart Validator logo" title=" Validators Donation Program" />
+        </a>
+        </p>
+        <p class="copyright">
+            <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+            &copy; 1994-2009
+            <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a>&reg;
+            (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>,
+            <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>,
+            <a href="http://www.keio.ac.jp/">Keio</a>),
+            All Rights Reserved.
+            W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
+            <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a>,
+            <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a>
+            and <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-software">software licensing</a>
+            rules apply. Your interactions with this site are in accordance
+            with our <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Public">public</a> and
+            <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Members">Member</a> privacy statements.
+        </p>
+</div>
+    </body>
+</html>

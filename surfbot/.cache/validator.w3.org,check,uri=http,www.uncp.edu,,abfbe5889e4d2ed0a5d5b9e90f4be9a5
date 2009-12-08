@@ -1,0 +1,970 @@
+status: 200
+content-location: http://validator.w3.org/check?uri=http://www.uncp.edu/
+content-language: en
+server: Apache/2.2.9 (Debian) mod_python/3.3.1 Python/2.5.2
+x-w3c-validator-status: Invalid
+x-w3c-validator-errors: 14
+x-w3c-validator-warnings: 5
+date: Tue, 23 Jun 2009 21:21:39 GMT
+x-w3c-validator-recursion: 1
+content-type: text/html; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>
+            [Invalid]
+            Markup Validation of http://www.uncp.edu/ - W3C Markup Validator</title>
+        <link rel="icon" href="data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%10%00%00%00%10%08%02%00%00%00%90%91h6%00%00%00%19IDAT(%91c%BCd%AB%C2%40%0A%60%22I%F5%A8%86Q%0DCJ%03%00%DE%B5%01S%07%88%8FG%00%00%00%00IEND%AEB%60%82" type="image/png" />
+    <link rev="made" href="mailto:www-validator@w3.org" />
+    <link rev="start" href="./" title="Home Page" />
+    <style type="text/css" media="all">@import "./style/base.css";
+            @import "./style/results.css";</style>
+    <meta name="keywords" content="HTML, HyperText Markup Language, Validation,
+      W3C Markup Validation Service" />
+    <meta name="description" content="W3C's easy-to-use
+      HTML validation service, based on an SGML parser." />
+  </head>
+  <body>
+    
+    <div id="banner">
+     <h1 id="title">
+       <a href="http://www.w3.org/"><img alt="W3C" width="110" height="61" id="logo" src="./images/w3c.png" /></a>
+ 			<a href="./"><span>Markup Validation Service</span></a>
+       </h1>
+       <p id="tagline">Check the markup (HTML, XHTML, …) of Web documents</p>
+    </div>
+
+
+<div id="results_container">
+
+
+
+        <ul class="navbar" id="jumpbar">
+                <li><strong>Jump To:</strong></li>
+                
+                
+          <li><a title="Result of Validation" href="#result">Validation Output</a></li>
+          
+          
+
+  
+  
+
+  
+  
+  
+  
+        </ul>
+
+<!-- valid/invalid header and revalidation table -->
+
+    
+  <h2 id="results" class="invalid">Errors found while checking this document as HTML 4.01 Transitional!</h2>
+    
+  
+
+
+
+
+  
+    <form id="form" method="get" action="check">
+  
+
+  <table class="header">
+    <tr>
+    <th>Result:</th>
+    
+    <td colspan="2" class="invalid">
+      14 Errors, 5 warning(s)
+     <!-- this case where validation fails but no error is listed should never happen -->   
+    
+    </td>
+    </tr>
+    <tr>
+
+    
+      <th><label title="Address of Page to Validate" for="uri">Address</label>:</th>
+      <td colspan="2"><input type="text" id="uri" name="uri" value="http://www.uncp.edu/" size="50" /></td>
+      
+
+    </tr>
+
+
+
+  <tr>
+    <th><label title="Character Encoding" for="charset">Encoding</label>:</th>
+    <td>iso-8859-1</td><td><select name="charset" id="charset">
+  <option value="(detect automatically)">(detect automatically)</option>
+  <option value="utf-8" >utf-8 (Unicode, worldwide)</option>
+  <option value="utf-16" >utf-16 (Unicode, worldwide)</option>
+  <option value="iso-8859-1" >iso-8859-1 (Western Europe)</option>
+  <option value="iso-8859-2" >iso-8859-2 (Central Europe)</option>
+  <option value="iso-8859-3" >iso-8859-3 (Southern Europe)</option>
+  <option value="iso-8859-4" >iso-8859-4 (North European)</option>
+  <option value="iso-8859-5" >iso-8859-5 (Cyrillic)</option>
+  <option value="iso-8859-6-i" >iso-8859-6-i (Arabic)</option>
+  <option value="iso-8859-7" >iso-8859-7 (Greek)</option>
+  <option value="iso-8859-8" >iso-8859-8 (Hebrew, visual)</option>
+  <option value="iso-8859-8-i" >iso-8859-8-i (Hebrew, logical)</option>
+  <option value="iso-8859-9" >iso-8859-9 (Turkish)</option>
+  <option value="iso-8859-10" >iso-8859-10 (Latin 6)</option>
+  <option value="iso-8859-11" >iso-8859-11 (Latin/Thai)</option>
+  <option value="iso-8859-13" >iso-8859-13 (Latin 7, Baltic Rim)</option>
+  <option value="iso-8859-14" >iso-8859-14 (Latin 8, Celtic)</option>
+  <option value="iso-8859-15" >iso-8859-15 (Latin 9)</option>
+  <option value="iso-8859-16" >iso-8859-16 (Latin 10)</option>
+  <option value="us-ascii" >us-ascii (basic English)</option>
+  <option value="euc-jp" >euc-jp (Japanese, Unix)</option>
+  <option value="shift_jis" >shift_jis (Japanese, Win/Mac)</option>
+  <option value="iso-2022-jp" >iso-2022-jp (Japanese, email)</option>
+  <option value="euc-kr" >euc-kr (Korean)</option>
+  <option value="gb2312" >gb2312 (Chinese, simplified)</option>
+  <option value="gb18030" >gb18030 (Chinese, simplified)</option>
+  <option value="big5" >big5 (Chinese, traditional)</option>
+  <option value="big5-HKSCS" >Big5-HKSCS (Chinese, Hong Kong)</option>
+  <option value="tis-620" >tis-620 (Thai)</option>
+  <option value="koi8-r" >koi8-r (Russian)</option>
+  <option value="koi8-u" >koi8-u (Ukrainian)</option>
+  <option value="iso-ir-111" >iso-ir-111 (Cyrillic KOI-8)</option>  
+  <option value="macintosh" >macintosh (MacRoman)</option>
+  <option value="windows-1250" >windows-1250 (Central Europe)</option>
+  <option value="windows-1251" >windows-1251 (Cyrillic)</option>
+  <option value="windows-1252" >windows-1252 (Western Europe)</option>
+  <option value="windows-1253" >windows-1253 (Greek)</option>
+  <option value="windows-1254" >windows-1254 (Turkish)</option>
+  <option value="windows-1255" >windows-1255 (Hebrew)</option>
+  <option value="windows-1256" >windows-1256 (Arabic)</option>
+  <option value="windows-1257" >windows-1257 (Baltic Rim)</option>
+</select>
+</td>
+  </tr>
+
+
+  <tr>
+    <th><label for="doctype" title="Document Type">Doctype</label>:</th>
+    <td>HTML 4.01 Transitional</td><td><select id="doctype" name="doctype">
+  <option value="Inline">(detect automatically)</option>
+  <option value="HTML5">HTML5 (experimental)</option>
+  <option value="XHTML 1.0 Strict">XHTML 1.0 Strict</option>
+  <option value="XHTML 1.0 Transitional" >XHTML 1.0 Transitional</option>
+  <option value="XHTML 1.0 Frameset" >XHTML 1.0 Frameset</option>
+  <option value="HTML 4.01 Strict" >HTML 4.01 Strict</option>
+  <option value="HTML 4.01 Transitional" >HTML 4.01 Transitional</option>
+  <option value="HTML 4.01 Frameset" >HTML 4.01 Frameset</option>
+  <option value="HTML 3.2" >HTML 3.2</option>
+  <option value="HTML 2.0" >HTML 2.0</option>
+  <option value="ISO/IEC 15445:2000 (&quot;ISO HTML&quot;)" >ISO/IEC 15445:2000 ("ISO HTML")</option>
+  <option value="XHTML 1.1" >XHTML 1.1</option>
+  <option value="XHTML + RDFa" >XHTML + RDFa</option>
+  <option value="XHTML Basic 1.0" >XHTML Basic 1.0</option>
+  <option value="XHTML Basic 1.1" >XHTML Basic 1.1</option>
+  <option value="XHTML Mobile Profile 1.2" >XHTML Mobile Profile 1.2</option>
+  <option value="XHTML-Print 1.0" >XHTML-Print 1.0</option>
+  <option value="XHTML 1.1 plus MathML 2.0" >XHTML 1.1 plus MathML 2.0</option> 
+  <option value="XHTML 1.1 plus MathML 2.0 plus SVG 1.1" >XHTML 1.1 plus MathML 2.0 plus SVG 1.1</option> 
+  <option value="MathML 2.0" >MathML 2.0</option>
+  <option value="SVG 1.0" >SVG 1.0</option>
+  <option value="SVG 1.1" >SVG 1.1</option>
+  <option value="SVG 1.1 Tiny" >SVG 1.1 Tiny</option>
+  <option value="SVG 1.1 Basic" >SVG 1.1 Basic</option>
+  <option value="SMIL 1.0" >SMIL 1.0</option>
+  <option value="SMIL 2.0" >SMIL 2.0</option>
+</select>
+</td>
+  </tr>
+
+
+  <tr>
+    <th>Root Element:</th>
+    <td colspan="2">HTML</td>
+  </tr>
+
+
+
+  </table>
+
+<div id="don_program"></div>
+<script type="text/javascript" src="http://www.w3.org/QA/Tools/don_prog.js"></script>
+
+        <fieldset id="revalidate_opts">
+                 <legend>Options</legend>
+
+    <table class="header">
+      <tr>
+        <td><input type="checkbox" value="1" id="ss" name="ss" 
+
+		/><label title="Show Page Source" for="ss">Show&nbsp;Source</label></td>
+              <td><input type="checkbox" value="1" id="outline" name="outline" 
+
+		/><label title="Show an Outline of the document" for="outline">Show&nbsp;Outline</label></td>
+                <td><input type="radio" name="group" id="group_no" value="0" 
+                        
+                        	checked="checked"
+                        
+                        /><label for="group_no">List Messages Sequentially</label> 
+                        <input type="radio" name="group" id="group_yes" value="1"
+                                
+                                 /><label for="group_yes">Group Error Messages by Type</label></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" value="1" id="No200" name="No200"
+
+		/><label title="Validate also pages for which the HTTP status code indicates an error" for="No200">Validate&nbsp;error&nbsp;pages</label></td>
+              <td><input type="checkbox" value="1" id="verbose" name="verbose"
+
+		/><label title="Show Verbose Output" for="verbose">Verbose&nbsp;Output</label></td>
+    		<td><input id="st" name="st" type="checkbox" value="1"
+                        
+    		         /><label for="st">Clean up Markup with HTML Tidy</label></td>
+            </tr>
+
+    </table>
+        <p class="moreinfo">
+          <a href="docs/users.html#Options">Help</a> on the options is available.
+        </p>
+    <div id="revalidate_button" class="submit_button">
+ <input type="hidden" value="W3C_Validator/1.654" id="user-agent" name="user-agent" />
+      <input type="submit" value="Revalidate" title="Validate this document again" />
+    </div>
+  </fieldset>
+</form>
+
+
+
+                
+
+
+                
+                  
+
+
+<p class="backtop"><a href="#jumpbar">&uarr; Top</a></p>
+
+
+<div id="result">
+
+<h3 class="invalid"
+>Validation Output:
+        <!-- this case where validation fails but no error is listed should never happen -->
+        
+        
+        14 Errors
+        </h3>
+
+
+    <ol id="error_loop">
+
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 69, Column 18</em>:
+        <span class="msg">Attribute &quot;LEFTMARGIN&quot; is not a valid attribute</span>
+
+<pre><code class="input">&#60;body leftmargin=<strong title="Position where error was detected.">&#34;</strong>0&#34; topmargin=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; onLoad=&#34;MM_p</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 69, Column 32</em>:
+        <span class="msg">Attribute &quot;TOPMARGIN&quot; is not a valid attribute. Did you mean &quot;marginwidth&quot; or &quot;marginheight&quot;?</span>
+
+<pre><code class="input">&#60;body leftmargin=&#34;0&#34; topmargin=<strong title="Position where error was detected.">&#34;</strong>0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; onLoad=&#34;MM_p</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 69, Column 48</em>:
+        <span class="msg">Attribute &quot;MARGINWIDTH&quot; is not a valid attribute. Did you mean &quot;marginwidth&quot;?</span>
+
+<pre><code class="input">…argin=&#34;0&#34; topmargin=&#34;0&#34; marginwidth=<strong title="Position where error was detected.">&#34;</strong>0&#34; marginheight=&#34;0&#34; onLoad=&#34;MM_preloadIm</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 69, Column 65</em>:
+        <span class="msg">Attribute &quot;MARGINHEIGHT&quot; is not a valid attribute. Did you mean &quot;marginheight&quot;?</span>
+
+<pre><code class="input">…in=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=<strong title="Position where error was detected.">&#34;</strong>0&#34; onLoad=&#34;MM_preloadImages('/uncp/image</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 107, Column 56</em>:
+        <span class="msg">Attribute &quot;TARGET&quot; is not a valid attribute. Did you mean &quot;target&quot;?</span>
+
+<pre><code class="input">					  &#60;option value=&#34;http://www.uncpalert.com&#34; target=<strong title="Position where error was detected.">&#34;</strong>_blank&#34;&#62;Brave Alert&#60;/option&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 117, Column 95</em>:
+        <span class="msg">cannot generate system identifier for general entity &quot;reason&quot;</span>
+
+<pre><code class="input">…CookieAuth.dll?GetLogon?curl=Z2Fowa&#38;<strong title="Position where error was detected.">r</strong>eason=0&#38;formdir=1&#34;&#62;Webmail (OWA)&#60;/opti…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=338#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-338">
+    <p>
+      An entity reference was found in the document, but there is no reference
+      by that name defined. Often this is caused by misspelling the reference
+      name, unencoded ampersands, or by leaving off the trailing semicolon (;).
+      <strong>The most common cause of this error is unencoded ampersands in
+      URLs</strong> as described by the <a
+        href="http://www.htmlhelp.com/">WDG</a> in "<a
+        href="http://www.htmlhelp.com/tools/validator/problems.html#amp">Ampersands
+        in URLs</a>".
+    </p>
+    <p>
+      Entity references start with an ampersand (&amp;) and end with a
+      semicolon (;). If you want to use a literal ampersand in your document
+      you must encode it as "&amp;amp;" (<em>even inside URLs!</em>). Be
+      careful to end entity references with a semicolon or your entity
+      reference may get interpreted in connection with the following text.
+      Also keep in mind that named entity references are case-sensitive;
+      &amp;Aelig; and &amp;aelig; are different characters.
+    </p>
+    <p>
+      If this error appears in some markup generated by PHP's session handling
+      code, <a href="http://www.w3.org/QA/2005/04/php-session" 
+      title="Ampersands, PHP Sessions and Valid HTML">this article</a> has 
+      explanations and solutions to your problem.
+    </p>
+    <p>
+      Note that in most documents, errors related to entity references will
+      trigger up to 5 separate messages from the Validator. Usually these
+      will all disappear when the original problem is fixed.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 117, Column 95</em>:
+        <span class="msg">general entity &quot;reason&quot; not defined and no default entity</span>
+
+<pre><code class="input">…CookieAuth.dll?GetLogon?curl=Z2Fowa&#38;<strong title="Position where error was detected.">r</strong>eason=0&#38;formdir=1&#34;&#62;Webmail (OWA)&#60;/opti…</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=25#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-25">
+    <p>
+      This is usually a cascading error caused by a an undefined entity
+      reference or use of an unencoded ampersand (&amp;) in an URL or body
+      text. See the previous message for further details.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 117, Column 101</em>:
+        <span class="msg">reference to entity &quot;reason&quot; for which no system identifier could be generated</span>
+
+<pre><code class="input">…Auth.dll?GetLogon?curl=Z2Fowa&#38;reason<strong title="Position where error was detected.">=</strong>0&#38;formdir=1&#34;&#62;Webmail (OWA)&#60;/option&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=325#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-325">
+    <p>
+      This is usually a cascading error caused by a an undefined entity
+      reference or use of an unencoded ampersand (&amp;) in an URL or body
+      text. See the previous message for further details.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 117, Column 93</em>:
+        <span class="msg">entity was defined here</span>
+
+<pre><code class="input">…u/CookieAuth.dll?GetLogon?curl=Z2Fow<strong title="Position where error was detected.">a</strong>&#38;reason=0&#38;formdir=1&#34;&#62;Webmail (OWA)&#60;/opti</code></pre>      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 117, Column 104</em>:
+        <span class="msg">cannot generate system identifier for general entity &quot;formdir&quot;</span>
+
+<pre><code class="input">…h.dll?GetLogon?curl=Z2Fowa&#38;reason=0&#38;<strong title="Position where error was detected.">f</strong>ormdir=1&#34;&#62;Webmail (OWA)&#60;/option&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=338#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-338">
+    <p>
+      An entity reference was found in the document, but there is no reference
+      by that name defined. Often this is caused by misspelling the reference
+      name, unencoded ampersands, or by leaving off the trailing semicolon (;).
+      <strong>The most common cause of this error is unencoded ampersands in
+      URLs</strong> as described by the <a
+        href="http://www.htmlhelp.com/">WDG</a> in "<a
+        href="http://www.htmlhelp.com/tools/validator/problems.html#amp">Ampersands
+        in URLs</a>".
+    </p>
+    <p>
+      Entity references start with an ampersand (&amp;) and end with a
+      semicolon (;). If you want to use a literal ampersand in your document
+      you must encode it as "&amp;amp;" (<em>even inside URLs!</em>). Be
+      careful to end entity references with a semicolon or your entity
+      reference may get interpreted in connection with the following text.
+      Also keep in mind that named entity references are case-sensitive;
+      &amp;Aelig; and &amp;aelig; are different characters.
+    </p>
+    <p>
+      If this error appears in some markup generated by PHP's session handling
+      code, <a href="http://www.w3.org/QA/2005/04/php-session" 
+      title="Ampersands, PHP Sessions and Valid HTML">this article</a> has 
+      explanations and solutions to your problem.
+    </p>
+    <p>
+      Note that in most documents, errors related to entity references will
+      trigger up to 5 separate messages from the Validator. Usually these
+      will all disappear when the original problem is fixed.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 117, Column 104</em>:
+        <span class="msg">general entity &quot;formdir&quot; not defined and no default entity</span>
+
+<pre><code class="input">…h.dll?GetLogon?curl=Z2Fowa&#38;reason=0&#38;<strong title="Position where error was detected.">f</strong>ormdir=1&#34;&#62;Webmail (OWA)&#60;/option&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=25#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-25">
+    <p>
+      This is usually a cascading error caused by a an undefined entity
+      reference or use of an unencoded ampersand (&amp;) in an URL or body
+      text. See the previous message for further details.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 117, Column 111</em>:
+        <span class="msg">reference to entity &quot;formdir&quot; for which no system identifier could be generated</span>
+
+<pre><code class="input">…etLogon?curl=Z2Fowa&#38;reason=0&#38;formdir<strong title="Position where error was detected.">=</strong>1&#34;&#62;Webmail (OWA)&#60;/option&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=325#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-325">
+    <p>
+      This is usually a cascading error caused by a an undefined entity
+      reference or use of an unencoded ampersand (&amp;) in an URL or body
+      text. See the previous message for further details.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_info">
+          <span class="err_type"><img src="images/info_icons/info.png" alt="Info" title="Info" /></span>
+        <em>Line 117, Column 102</em>:
+        <span class="msg">entity was defined here</span>
+
+<pre><code class="input">…uth.dll?GetLogon?curl=Z2Fowa&#38;reason=<strong title="Position where error was detected.">0</strong>&#38;formdir=1&#34;&#62;Webmail (OWA)&#60;/option&#62;</code></pre>      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 286, Column 86</em>:
+        <span class="msg">an attribute specification must start with a name or name token</span>
+
+<pre><code class="input">…=&#34;&#34; width=&#34;25&#34; height=&#34;1&#34; border=&#34;0&#34;<strong title="Position where error was detected.">&#34;</strong>&#34;&#62;&#60;a href=&#34;/news/2008/princeton_review_b</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=105#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-105">
+    <p>
+      An attribute name (and some attribute values) must start with one of
+      a restricted set of characters. This error usually indicates that
+        you have failed to add a closing quotation mark on a previous
+        attribute value (so the attribute value looks like the start of a
+        new attribute) or have used an attribute that is not defined
+        (usually a typo in a common attribute name).
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 286, Column 407</em>:
+        <span class="msg">an attribute specification must start with a name or name token</span>
+
+<pre><code class="input">…=&#34;&#34; width=&#34;25&#34; height=&#34;1&#34; border=&#34;0&#34;<strong title="Position where error was detected.">&#34;</strong>&#34;&#62;&#60;a href=&#34;/news/2008/us_news.htm&#34;&#62;&#60;img </code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=105#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-105">
+    <p>
+      An attribute name (and some attribute values) must start with one of
+      a restricted set of characters. This error usually indicates that
+        you have failed to add a closing quotation mark on a previous
+        attribute value (so the attribute value looks like the start of a
+        new attribute) or have used an attribute that is not defined
+        (usually a typo in a common attribute name).
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 418, Column 32</em>:
+        <span class="msg">NET-enabling start-tag requires SHORTTAG YES</span>
+
+<pre><code class="input">		&#60;form method=GET action=http:<strong title="Position where error was detected.">/</strong>/www.google.com/u/uncp id=&#34;searchForm&#34;&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=247#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-247">
+    <p>
+      The sequence &lt;FOO /&gt; can be interpreted in at least two different ways,
+      depending on the DOCTYPE of the document. For HTML 4.01 Strict, the '/'
+      terminates the tag &lt;FOO (with an implied '&gt;').  However, since many
+      browsers don't interpret it this way, even in the presence of an HTML 4.01 Strict
+     DOCTYPE, it is best to avoid it completely in pure HTML documents and 
+     reserve its use solely for those written in XHTML.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 421, Column 148</em>:
+        <span class="msg">Attribute &quot;WIDTH&quot; is not a valid attribute. Did you mean &quot;width&quot;?</span>
+
+<pre><code class="input">…UNCP Web site&#34; align=&#34;middle&#34; width=<strong title="Position where error was detected.">&#34;</strong>32&#34; height=&#34;16&#34;&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 421, Column 160</em>:
+        <span class="msg">Attribute &quot;HEIGHT&quot; is not a valid attribute. Did you mean &quot;height&quot;?</span>
+
+<pre><code class="input">…e&#34; align=&#34;middle&#34; width=&#34;32&#34; height=<strong title="Position where error was detected.">&#34;</strong>16&#34;&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=108#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-108">
+    <p>
+      You have used the attribute named above in your document, but the
+      document type you are using does not support that attribute for this
+      element. This error is often caused by incorrect use of the "Strict"
+      document type with a document that uses frames (e.g. you must use
+      the "Transitional" document type to get the "target" attribute), or
+      by using vendor proprietary extensions such as "marginheight" (this
+      is usually fixed by using CSS to achieve the desired effect instead).
+    </p>
+    <p>
+      This error may also result if the element itself is not supported in
+      the document type you are using, as an undefined element will have no
+      supported attributes; in this case, see the element-undefined error
+      message for further information.
+    </p>
+    <p>
+      How to fix: check the spelling and case of the element and attribute, 
+      (Remember XHTML is all lower-case) and/or 
+      check that they are both allowed in the chosen document type, and/or
+      use CSS instead of this attribute. If you received this error when using the 
+      &lt;embed&gt; element to incorporate flash media in a Web page, see the 
+      <a href="http://validator.w3.org/docs/help.html#faq-flash">FAQ item on valid flash</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_err">
+          <span class="err_type"><img src="images/info_icons/error.png" alt="Error" title="Error" /></span>
+        <em>Line 422, Column 7</em>:
+        <span class="msg">end tag for element &quot;FORM&quot; which is not open</span>
+
+<pre><code class="input">&#60;/form<strong title="Position where error was detected.">&#62;</strong></code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=79#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-79">
+    <p>
+      The Validator found an end tag for the above element, but that element is
+      not currently open. This is often caused by a leftover end tag from an
+      element that was removed during editing, or by an implicitly closed
+      element (if you have an error related to an element being used where it
+      is not allowed, this is almost certainly the case). In the latter case
+      this error will disappear as soon as you fix the original problem.
+    </p>
+    <p>
+      If this error occurred in a script section of your document, you should probably
+      read this <a href="http://validator.w3.org/docs/help.html#faq-javascript">FAQ entry</a>.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 433, Column 42</em>:
+        <span class="msg">reference to non-SGML character</span>
+
+<pre><code class="input">…x 1510 Pembroke, NC 28372-1510 &#38;#149<strong title="Position where error was detected.">;</strong> 800.949.UNCP (8627) &#38;#149; 910.521.6000</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=410#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-410">
+    <p>
+      You've included a character reference to a character that is not defined
+      in the document type you've chosen. This is most commonly caused by
+      numerical references to characters from vendor proprietary
+      character repertoires. Often the culprit will be fancy or typographical
+      quote marks from either the Windows or Macintosh character repertoires.
+    </p>
+    <p>
+      The solution is to reference UNICODE characters instead. A list of
+      common characters from the Windows character repertoire and their
+      UNICODE equivalents can be found in the document "<a
+        href="http://www.cs.tut.fi/~jkorpela/www/windows-chars.html#list"
+      >On the use of some MS Windows characters in HTML</a>" maintained by
+      <a href="http://www.cs.tut.fi/~jkorpela/">Jukka Korpela</a>
+      &lt;<a href="mailto:jkorpela@cs.tut.fi">jkorpela@cs.tut.fi</a>&gt;.
+    </p>
+  </div>
+      </li>
+  
+      <li class="msg_warn">
+          <span class="err_type"><img src="images/info_icons/warning.png" alt="Warning" title="Warning" /></span>
+        <em>Line 433, Column 69</em>:
+        <span class="msg">reference to non-SGML character</span>
+
+<pre><code class="input">… NC 28372-1510 &#38;#149; 800.949.UNCP (8627) &#38;#149<strong title="Position where error was detected.">;</strong> 910.521.6000&#60;/p&#62;&#60;/div&#62;&#60;/td&#62;</code></pre>    <p class="helpwanted">
+      <a
+        href="http://validator.w3.org/feedback.html?uri=http%3A%2F%2Fwww.uncp.edu%2F;errmsg_id=410#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+    <div class="ve mid-410">
+    <p>
+      You've included a character reference to a character that is not defined
+      in the document type you've chosen. This is most commonly caused by
+      numerical references to characters from vendor proprietary
+      character repertoires. Often the culprit will be fancy or typographical
+      quote marks from either the Windows or Macintosh character repertoires.
+    </p>
+    <p>
+      The solution is to reference UNICODE characters instead. A list of
+      common characters from the Windows character repertoire and their
+      UNICODE equivalents can be found in the document "<a
+        href="http://www.cs.tut.fi/~jkorpela/www/windows-chars.html#list"
+      >On the use of some MS Windows characters in HTML</a>" maintained by
+      <a href="http://www.cs.tut.fi/~jkorpela/">Jukka Korpela</a>
+      &lt;<a href="mailto:jkorpela@cs.tut.fi">jkorpela@cs.tut.fi</a>&gt;.
+    </p>
+  </div>
+      </li>
+  
+    
+</ol>
+
+<p class="backtop"><a href="#jumpbar">&uarr; Top</a></p>
+
+
+
+
+
+
+  </div>
+
+                
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+</div><!-- results_container-->
+
+<ul class="navbar" id="menu">
+    <li><a href="./" accesskey="1" title="Go to the Home Page for The W3C Markup Validation Service">Home</a><span> | </span></li>
+    <li><a href="./about.html" title="Information About this Service">About...</a><span> | </span></li>
+
+    <li><a href="./whatsnew.html" title="The changes made to this service recently">News</a><span> | </span></li>
+    <li><a href="./docs/" accesskey="3" title="Documentation for this Service">Docs</a><span> | </span></li>
+	<li><a href="./docs/help.html" title="Help and answers to frequently asked questions">Help&nbsp;&amp;&nbsp;<acronym title="Frequently Asked Questions">FAQ</acronym></a><span> | </span></li>
+    <li><a href="./feedback.html" accesskey="4" title="How to provide feedback on this service">Feedback</a><span> | </span></li>
+    <li><a href="./contribute.html" title="How to contribute to the validator project">Contribute</a><span> | </span></li>
+</ul>
+<div id="footer">
+
+	<p id="activity_logos">
+		<a href="http://www.w3.org/Status" title="W3C's Open Source, bringing you free Web quality tools and more"><img src="http://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C" /><img src="http://www.opensource.org/trademarks/opensource/web/opensource-55x48.jpg" alt="Open-Source" title="We are building certified Open Source/Free Software. - see www.opensource.org" /></a>
+	</p>
+
+		<p id="support_logo">
+			<a href="http://www.w3.org/QA/Tools/Donate">
+			<img src="http://www.w3.org/QA/Tools/I_heart_validator" alt="I heart Validator logo" title=" Validators Donation Program" />
+			</a>
+		</p>
+    <p id="version_info">
+      This service runs the W3C Markup Validator, <a href="whatsnew.html#t2008-11-20"><abbr title="version">v</abbr>0.8.5</a>. 
+    </p>
+
+		<p class="copyright">
+			<a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 1994-2009
+			<a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a>&reg;
+
+			(<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>,
+			<a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>,
+			<a href="http://www.keio.ac.jp/">Keio</a>),
+			All Rights Reserved.
+			W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
+			<a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a>,
+			<a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a>
+
+			and <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-software">software licensing</a>
+
+			rules apply. Your interactions with this site are in accordance
+			with our <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Public">public</a> and
+			<a href="http://www.w3.org/Consortium/Legal/privacy-statement#Members">Member</a> privacy
+			statements.
+		</p>
+</div><!-- footer -->
+	</body>
+
+</html>
+
+
+
