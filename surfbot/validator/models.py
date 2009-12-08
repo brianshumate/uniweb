@@ -16,7 +16,7 @@ class Website (models.Model):
     created = models.DateField(auto_now_add=True)
     modified = models.DateField(auto_now=True)
     org = models.CharField(max_length=128)
-    rooturl = models.CharField(max_length=4096, help_text='Please enter the complete URL in the form of: http://www.example.com/')
+    rooturl = models.CharField(max_length=4096, help_text='Enter URL in the form of: http://www.example.com/')
     checkok = models.BooleanField()
     htmlval = models.CharField(max_length=5, blank=True)
     htmlval_fcount = models.IntegerField()
